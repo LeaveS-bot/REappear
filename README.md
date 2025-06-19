@@ -4,3 +4,10 @@
 会议：ICCV 2017 (计算机视觉顶级会议)
 论文链接：https://arxiv.org/abs/1610.02391
 代码仓库：官方PyTorch实现
+
+
+python data_preparation.py
+python vocab_builder.py
+python data_generator.py
+python train_model.py
+python evaluate_model.py

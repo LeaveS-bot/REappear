@@ -61,7 +61,7 @@ if __name__ == "__main__":
         idx_to_word = pickle.load(f)
     
     # 测试相似词
-    test_words = ['king', 'queen', 'man', 'woman', 'london', 'france', 'romeo', 'juliet']
+    test_words = ['ai', 'learning', 'machine', 'deep', 'learning', 'artificial', 'intelligence', 'nlp']
     for word in test_words:
         similar = find_similar_words(word, embeddings, vocab, idx_to_word)
         if similar:

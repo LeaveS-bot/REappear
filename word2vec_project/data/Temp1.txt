@@ -1,31 +1,1505 @@
-Artificial intelligence has transformed from a theoretical concept to a practical technology reshaping our world. The journey began in the 1950s when pioneers like Alan Turing and John McCarthy laid the foundational principles. Turing proposed the famous Turing Test in 1950, suggesting that a machine could be considered intelligent if it could converse indistinguishably from a human. McCarthy coined the term "artificial intelligence" in 1956 at the Dartmouth Conference, marking the official birth of the field.
-
-Early AI research focused on symbolic approaches and logic-based systems. Programs like the Logic Theorist and General Problem Solver demonstrated machines could solve mathematical problems and puzzles. However, these systems struggled with real-world complexity, leading to the first AI winter in the 1970s when funding and interest declined.
-
-The 1980s witnessed an AI renaissance with expert systems that captured specialized knowledge in fields like medicine and geology. Systems like MYCIN could diagnose blood infections, while XCON configured computer systems. But these brittle systems couldn't learn or adapt, leading to another AI winter.
-
-The modern AI revolution began in the 2010s, fueled by three critical developments: massive datasets, powerful computing resources, and breakthroughs in neural networks. Deep learning architectures like convolutional neural networks (CNNs) and recurrent neural networks (RNNs) enabled unprecedented progress in computer vision and natural language processing.
-
-In 2012, AlexNet's dramatic win in the ImageNet competition demonstrated deep learning's potential. Suddenly, machines could recognize objects in images with human-level accuracy. This breakthrough sparked massive investment from tech giants like Google, Facebook, and Microsoft.
-
-Natural language processing witnessed similar transformations. Word embeddings like Word2Vec, introduced by Mikolov in 2013, allowed machines to understand semantic relationships between words. Transformer architectures, introduced in 2017, enabled models like BERT and GPT to understand context and generate human-like text.
-
-Today, AI systems outperform humans in specific tasks. AlphaGo defeated world champion Lee Sedol in Go, a game with more possible positions than atoms in the universe. AI systems diagnose diseases from medical images with higher accuracy than radiologists. Language models generate coherent articles, poetry, and even computer code.
-
-The applications span every industry. In healthcare, AI analyzes medical images, predicts disease outbreaks, and accelerates drug discovery. In transportation, self-driving cars navigate complex environments. In finance, algorithms detect fraud and optimize investments. In manufacturing, predictive maintenance reduces downtime.
-
-However, AI development faces significant challenges. Bias in training data can lead to discriminatory outcomes. The black-box nature of deep learning models makes them difficult to interpret. Privacy concerns arise as systems process massive amounts of personal data. The environmental impact of training large models raises sustainability questions.
-
-Ethical considerations are paramount. How should autonomous vehicles make life-or-death decisions? Who is responsible when AI systems cause harm? How do we ensure AI benefits all of humanity, not just technologically advanced nations?
-
-Future directions include explainable AI, which makes model decisions transparent. Federated learning enables training on decentralized data while preserving privacy. Neuromorphic computing mimics the brain's efficiency. Quantum machine learning promises exponential speedups for certain problems.
-
-As artificial general intelligence (AGI) remains a distant goal, researchers debate timelines and approaches. Some believe current methods will scale to human-level intelligence, while others argue fundamentally new paradigms are needed. The journey from narrow AI to general intelligence represents the next frontier.
-
-Society must prepare for AI's impact on employment. While automation eliminates some jobs, it creates new opportunities in AI development, data science, and technology ethics. Education systems must adapt to equip workers with skills for an AI-driven economy.
-
-International cooperation is crucial for establishing norms and standards. Initiatives like the Global Partnership on Artificial Intelligence (GPAI) bring together experts from multiple countries to address technical and policy challenges. Regulations like the EU's AI Act aim to ensure trustworthy AI systems.
-
-The convergence of AI with other technologies accelerates innovation. AI-powered robotics creates more capable machines. AI in biotechnology enables personalized medicine. Climate modeling with AI helps predict and mitigate environmental changes.
-
-As we stand on the brink of artificial intelligence transforming every aspect of human existence, we must guide this technology with wisdom. The choices we make today will determine whether AI becomes humanity's greatest achievement or poses existential risks. Through responsible development and thoughtful governance, we can harness artificial intelligence to solve humanity's greatest challenges and create a better future for all.
+ABOUT THE AI NOW INSTITUTE  
+The AI Now Institute at New York University is an interdisciplinary research institute dedicated to 
+understanding the social implications of AI technologies. It is the first university research center 
+focused specifically on AI’s social significance. Founded and led by Kate Crawford and Meredith 
+Whittaker, AI Now is one of the few women-led AI institutes in the world.  
+AI Now works with a broad coalition of stakeholders, including academic researchers, industry, 
+civil society, policy makers, and affected communities, to identify and address issues raised by 
+the rapid introduction of AI across core social domains. AI Now produces interdisciplinary 
+research to help ensure that AI systems are accountable to the communities and contexts they 
+are meant to serve, and that they are applied in ways that promote justice and equity. The 
+Institute’s current research agenda focuses on four core areas: bias and inclusion, rights and 
+liberties, labor and automation, and safety and critical infrastructure.  
+Our most recent publications include: 
+●  Litigating Algorithms , a major report assessing recent court cases focused on 
+government use of algorithms  
+● Anatomy of an AI System , a large-scale map and longform essay produced in partnership 
+with  SHARE Lab , which investigates the human labor, data, and planetary resources 
+required to operate an Amazon Echo 
+● Algorithmic Impact Assessment (AIA) Report , which helps affected communities and 
+stakeholders assess the use of AI and algorithmic decision-making in public agencies  
+●  Algorithmic Accountability Policy Toolkit , which is geared toward advocates interested 
+in understanding government use of algorithmic systems 
+We also host expert workshops and public events on a wide range of topics. Our workshop on 
+Immigration, Data, and Automation in the Trump Era , co-hosted with the Brennan Center for 
+Justice and the Center for Privacy and Technology at Georgetown Law, focused on the Trump 
+Administration’s use of data harvesting, predictive analytics, and machine learning to target 
+immigrant communities.  The   Data Genesis Working Group  convenes experts from across 
+industry and academia to examine the mechanics of dataset provenance and maintenance. Our 
+roundtable on  Machine Learning, Inequality and Bias , co-hosted in Berlin with the Robert Bosch 
+Academy, gathered researchers and policymakers from across Europe to address issues of bias, 
+discrimination, and fairness in machine learning and related technologies. 
+Our annual public symposium convenes leaders from academia, industry, government, and civil 
+society to examine the biggest challenges we face as AI moves into our everyday lives. The  AI 
+Now 2018 Symposium  addressed the intersection of AI ethics, organizing, and accountability, 
+examining the landmark events of the past year. Over 1,000 people registered for the event, which 
+was free and open to the public. Recordings of the program are available on our  website . 
+More information is available at  www.ainowinstitute.org .  
+3 
+RECOMMENDATIONS 
+1. Governments need to regulate AI by expanding the powers of sector-specific agencies to 
+oversee, audit, and monitor these technologies by domain.  The implementation of AI 
+systems is expanding rapidly, without adequate governance, oversight, or accountability 
+regimes. Domains like health, education, criminal justice, and welfare all have their own 
+histories, regulatory frameworks, and hazards. However, a national AI safety body or general 
+AI standards and certification model will struggle to meet the sectoral expertise requirements 
+needed for nuanced regulation. We need a sector-specific approach that does not prioritize 
+the technology, but focuses on its application within a given domain. Useful examples of 
+sector-specific approaches include the United States Federal Aviation Administration and the 
+National Highway Traffic Safety Administration. 
+2. Facial recognition and affect recognition need stringent regulation to protect the public 
+interest.  Such regulation should include national laws that require strong oversight, clear 
+limitations, and public transparency. Communities should have the right to reject the 
+application of these technologies in both public and private contexts. Mere public notice of 
+their use is not sufficient, and there should be a high threshold for any consent, given the 
+dangers of oppressive and continual mass surveillance. Affect recognition deserves particular 
+attention. Affect recognition is a subclass of facial recognition that claims to detect things 
+such as personality, inner feelings, mental health, and “worker engagement” based on images 
+or video of faces. These claims are not backed by robust scientific evidence, and are being 
+applied in unethical and irresponsible ways that often recall the pseudosciences of phrenology 
+and physiognomy. Linking affect recognition to hiring, access to insurance, education, and 
+policing creates deeply concerning risks, at both an individual and societal level.  
+3. The AI industry urgently needs new approaches to governance. As this report 
+demonstrates, internal governance structures at most technology companies are failing to 
+ensure accountability for AI systems.  Government regulation is an important component, 
+but leading companies in the AI industry also need internal accountability structures that go 
+beyond ethics guidelines. This should include rank-and-file employee representation on the 
+board of directors, external ethics advisory boards, and the implementation of independent 
+monitoring and transparency efforts. Third party experts should be able to audit and publish 
+about key systems, and companies need to ensure that their AI infrastructures can be 
+understood from “nose to tail,” including their ultimate application and use. 
+4. AI companies should waive trade secrecy and other legal claims that stand in the way of 
+accountability in the public sector.  Vendors and developers who create AI and automated 
+decision systems for use in government should agree to waive any trade secrecy or other 
+legal claim that inhibits full auditing and understanding of their software. Corporate secrecy  
+4 
+laws are a barrier to due process: they contribute to the “black box effect” rendering systems 
+opaque and unaccountable, making it hard to assess bias, contest decisions, or remedy 
+errors. Anyone procuring these technologies for use in the public sector should demand that 
+vendors waive these claims before entering into any agreements. 
+5. Technology companies should provide protections for conscientious objectors, employee 
+organizing, and ethical whistleblowers.  Organizing and resistance by technology workers 
+has emerged as a force for accountability and ethical decision making. Technology 
+companies need to protect workers’ ability to organize, whistleblow, and make ethical choices 
+about what projects they work on. This should include clear policies accommodating and 
+protecting conscientious objectors, ensuring workers the right to know what they are working 
+on, and the ability to abstain from such work without retaliation or retribution. Workers raising 
+ethical concerns must also be protected, as should whistleblowing in the public interest. 
+6. Consumer protection agencies should apply “truth-in-advertising” laws to AI products and 
+services.  The hype around AI is only growing, leading to widening gaps between marketing 
+promises and actual product performance. With these gaps come increasing risks to both 
+individuals and commercial customers, often with grave consequences. Much like other 
+products and services that have the potential to seriously impact or exploit populations, AI 
+vendors should be held to high standards for what they can promise, especially when the 
+scientific evidence to back these promises is inadequate and the longer-term consequences 
+are unknown. 
+7. Technology companies must go beyond the “pipeline model” and commit to addressing the 
+practices of exclusion and discrimination in their workplaces.  Technology companies and 
+the AI field as a whole have focused on the “pipeline model,” looking to train and hire more 
+diverse employees. While this is important, it overlooks what happens once people are hired 
+into workplaces that exclude, harass, or systemically undervalue people on the basis of 
+gender, race, sexuality, or disability. Companies need to examine the deeper issues in their 
+workplaces, and the relationship between exclusionary cultures and the products they build, 
+which can produce tools that perpetuate bias and discrimination. This change in focus needs 
+to be accompanied by practical action, including a commitment to end pay and opportunity 
+inequity, along with transparency measures about hiring and retention.  
+8. Fairness, accountability, and transparency in AI require a detailed account of the “full stack 
+supply chain.”  For meaningful accountability, we need to better understand and track the 
+component parts of an AI system and the full supply chain on which it relies: that means 
+accounting for the origins and use of training data, test data, models, application program 
+interfaces (APIs), and other infrastructural components over a product life cycle. We call this 
+accounting for the “full stack supply chain” of AI systems, and it is a necessary condition for a  
+5 
+more responsible form of auditing. The full stack supply chain also includes understanding 
+the true environmental and labor costs of AI systems. This incorporates energy use, the use of 
+labor in the developing world for content moderation and training data creation, and the 
+reliance on clickworkers to develop and maintain AI systems.  
+9. More funding and support are needed for litigation, labor organizing, and community 
+participation on AI accountability issues.  The people most at risk of harm from AI systems 
+are often those least able to contest the outcomes. We need increased support for robust 
+mechanisms of legal redress and civic participation. This includes supporting public 
+advocates who represent those cut off from social services due to algorithmic decision 
+making, civil society organizations and labor organizers that support groups that are at risk of 
+job loss and exploitation, and community-based infrastructures that enable public 
+participation.  
+10. University AI programs should expand beyond computer science and engineering 
+disciplines.  AI began as an interdisciplinary field, but over the decades has narrowed to 
+become a technical discipline. With the increasing application of AI systems to social 
+domains, it needs to expand its disciplinary orientation. That means centering forms of 
+expertise from the social and humanistic disciplines. AI efforts that genuinely wish to address 
+social implications cannot stay solely within computer science and engineering departments, 
+where faculty and students are not trained to research the social world. Expanding the 
+disciplinary orientation of AI research will ensure deeper attention to social contexts, and 
+more focus on potential hazards when these systems are applied to human populations.  
+6 
+EXECUTIVE SUMMARY 
+At the core of the cascading scandals around AI in 2018 are questions of accountability: who is 
+responsible when AI systems harm us? How do we understand these harms, and how do we 
+remedy them? Where are the points of intervention, and what additional research and regulation is 
+needed to ensure those interventions are effective? Currently there are few answers to these 
+questions, and the frameworks presently governing AI are not capable of ensuring accountability. 
+As the pervasiveness, complexity, and scale of these systems grow, the lack of meaningful 
+accountability and oversight – including basic safeguards of responsibility, liability, and due 
+process – is an increasingly urgent concern. 
+Building on our 2016 and 2017 reports, the AI Now 2018 Report contends with this central 
+problem and addresses the following key issues: 
+1. The growing accountability gap in AI, which favors those who create and deploy these 
+technologies at the expense of those most affected 
+2. The use of AI to maximize and amplify surveillance, especially in conjunction with facial 
+and affect recognition, increasing the potential for centralized control and oppression 
+3. Increasing government use of automated decision systems that directly impact 
+individuals and communities without established accountability structures 
+4. Unregulated and unmonitored forms of AI experimentation on human populations  
+5. The limits of technological solutions to problems of fairness, bias, and discrimination  
+Within each topic, we identify emerging challenges and new research, and provide 
+recommendations regarding AI development, deployment, and regulation. We offer practical 
+pathways informed by research so that policymakers, the public, and technologists can better 
+understand and mitigate risks. Given that the AI Now Institute’s location and regional expertise is 
+concentrated in the U.S., this report will focus primarily on the U.S. context, which is also where 
+several of the world’s largest AI companies are based.  
+The AI accountability gap is growing:  The technology scandals of 2018 have shown that the gap 
+between those who develop and profit from AI—and those most likely to suffer the consequences 
+of its negative effects—is growing larger, not smaller. There are several reasons for this, including 
+a lack of government regulation, a highly concentrated AI sector, insufficient governance 
+structures within technology companies, power asymmetries between companies and the people 
+they serve, and a stark cultural divide between the engineering cohort responsible for technical 
+research, and the vastly diverse populations where AI systems are deployed. These gaps are 
+producing growing concern about bias, discrimination, due process, liability, and overall 
+responsibility for harm. This report emphasizes the urgent need for stronger, sector-specific 
+research and regulation.  
+7 
+AI is amplifying widespread surveillance:  The role of AI in widespread surveillance has expanded 
+immensely in the U.S., China, and many other countries worldwide. This is seen in the growing use 
+of sensor networks, social media tracking, facial recognition, and affect recognition. These 
+expansions not only threaten individual privacy, but accelerate the automation of surveillance, and 
+thus its reach and pervasiveness. This presents new dangers, and magnifies many longstanding 
+concerns. The use of affect recognition, based on debunked pseudoscience, is also on the rise. 
+Affect recognition attempts to read inner emotions by a close analysis of the face and is 
+connected to spurious claims about people’s mood, mental health, level of engagement, and guilt 
+or innocence. This technology is already being used for discriminatory and unethical purposes, 
+often without people’s knowledge. Facial recognition technology poses its own dangers, 
+reinforcing skewed and potentially discriminatory practices, from criminal justice to education to 
+employment, and presents risks to human rights and civil liberties in multiple countries. 
+Governments are rapidly expanding the use of automated decision systems without adequate 
+protections for civil rights:  Around the world, government agencies are procuring and deploying 
+automated decision systems (ADS) under the banners of efficiency and cost-savings. Yet many of 
+these systems are untested and poorly designed for their tasks, resulting in illegal and often 
+unconstitutional violations of individual rights. Worse, when they make errors and bad decisions, 
+the ability to question, contest, and remedy these is often difficult or impossible. Some agencies 
+are attempting to provide mechanisms for transparency, due process, and other basic rights, but 
+trade secrecy and similar laws threaten to prevent auditing and adequate testing of these 
+systems. Drawing from proactive agency efforts, and from recent strategic litigation, we outline 
+pathways for ADS accountability. 
+Rampant testing of AI systems “in the wild” on human populations:  Silicon Valley is known for 
+its “move fast and break things” mentality, whereby companies are pushed to experiment with 
+new technologies quickly and without much regard for the impact of failures, including who bears 
+the risk. In the past year, we have seen a growing number of experiments deploying AI systems “in 
+the wild” without proper protocols for notice, consent, or accountability. Such experiments 
+continue, due in part to a lack of consequences for failure. When harms occur, it is often unclear 
+where or with whom the responsibility lies. Researching and assigning appropriate responsibility 
+and liability remains an urgent priority. 
+The limits of technological fixes to problems of fairness, bias, and discrimination:  Much new 
+work has been done designing mathematical models for what should be considered “fair” when 
+machines calculate outcomes, aimed at avoiding discrimination. Yet, without a framework that 
+accounts for social and political contexts and histories, these mathematical formulas for fairness 
+will almost inevitably miss key factors, and can serve to paper over deeper problems in ways that 
+ultimately increase harm or ignore justice. Broadening perspectives and expanding research into 
+AI fairness and bias beyond the merely mathematical is critical to ensuring we are capable of 
+addressing the core issues and moving the focus from parity to justice. 
+8 
+The move to ethical principles:  This year saw the emergence of numerous ethical principles and 
+guidelines for the creation and deployment of AI technologies, many in response to growing 
+concerns about AI’s social implications. But as studies show, these types of ethical commitments 
+have little measurable effect on software development practices if they are not directly tied to 
+structures of accountability and workplace practices. Further, these codes and guidelines are 
+rarely backed by enforcement, oversight, or consequences for deviation. Ethical codes can only 
+help close the AI accountability gap if they are truly built into the processes of AI development and 
+are backed by enforceable mechanisms of responsibility that are accountable to the public 
+interest. 
+The following report develops these themes in detail, reflecting on the latest academic research, 
+and outlines seven strategies for moving forward: 
+1. Expanding AI fairness research beyond a focus on mathematical parity and statistical 
+fairness toward issues of justice 
+2. Studying and tracking the full stack of infrastructure needed to create AI, including 
+accounting for material supply chains 
+3. Accounting for the many forms of labor required to create and maintain AI systems 
+4. Committing to deeper interdisciplinarity in AI  
+5. Analyzing race, gender, and power in AI 
+6. Developing new policy interventions and strategic litigation 
+7. Building coalitions between researchers, civil society, and organizers within the technology 
+sector  
+These approaches are designed to positively recast the AI field and address the growing power 
+imbalance that currently favors those who develop and profit from AI systems at the expense of 
+the populations most likely to be harmed.  
+9 
+INTRODUCTION 
+The Social Challenges of AI in 2018 
+The past year has seen accelerated integration of powerful artificial intelligence systems into core 
+social institutions, against a backdrop of rising inequality, political populism, and industry 
+scandals. 1  There have been major movements from both inside and outside technology 
+companies pushing for greater accountability and justice. The AI Now 2018 Report focuses on 
+these themes and examines the gaps between AI ethics and meaningful accountability, and the 
+role of organizing and regulation.  
+In short, it has been a dramatic year in AI. In any normal year, Cambridge Analytica seeking to 
+manipulate national elections in the US and UK using social media data and algorithmic ad 
+targeting would have been the biggest story. 2  But in 2018, it was just one of many scandals. 
+Facebook had a series of disasters, including a massive data breach in September, 3  multiple class 
+action lawsuits for discrimination, 4  accusations of inciting ethnic cleansing in Myanmar, 5  potential 
+violations of the Fair Housing Act, 6  and hosting masses of fake Russian accounts. 7  Throughout 
+the year, the company’s executives were frequently summoned to testify, with Mark Zuckerberg 
+facing the US Senate in April and the European Parliament in May. 8  Zuckerberg mentioned AI 
+technologies over 30 times in his Congressional testimony as the cure-all to the company’s 
+problems, particularly in the complex areas of censorship, fairness, and content moderation. 9 
+But Facebook wasn’t the only one in crisis. News broke in March that Google was building AI 
+systems for the Department of Defense’s drone surveillance program, Project Maven. 10  The news 
+kicked off an unprecedented wave of technology worker organizing and dissent across the 
+industry. 11  In June, when the Trump administration introduced the family separation policy that 
+forcibly removed immigrant children from their parents, employees from Amazon, Salesforce, and 
+Microsoft all asked their companies to end contracts with U.S. Immigration and Customs 
+Enforcement (ICE). 12  Less than a month later, it was revealed that ICE modified its own risk 
+assessment algorithm so that it could only produce one result: the system recommended “detain” 
+for 100% of immigrants in custody. 13 
+Throughout the year, AI systems continued to be tested on live populations in high-stakes 
+domains, with some serious consequences. In March, autonomous cars killed drivers and 
+pedestrians. 14  Then in May, a voice recognition system in the UK designed to detect immigration 
+fraud ended up cancelling thousands of visas and deporting people in error. 15  Documents leaked 
+in July showed that IBM Watson was producing “unsafe and incorrect” cancer treatment 
+recommendations. 16  And an investigation in September revealed that IBM was also working with 
+the New York City Police Department (NYPD) to build an “ethnicity detection” feature to search 
+faces based on race, using police camera footage of thousands of people in the streets of New 
+York taken without their knowledge or permission. 17  
+10 
+This is just a sampling of an extraordinary series of incidents from 2018. 18  The response has 
+included a growing wave of criticism, with demands for greater accountability from the 
+technology industry and the systems they build. 19  In turn, some companies have made public 
+calls for the U.S. to regulate technologies like facial recognition. 20  Others have published AI ethics 
+principles and increased efforts to produce technical fixes for issues of bias and discrimination in 
+AI systems. But many of these ethical and technical approaches define the problem space very 
+narrowly, neither contending with the historical or social context nor providing mechanisms for 
+public accountability, oversight, and due process. This makes it nearly impossible for the public to 
+validate that any of the current problems have, in fact, been addressed. 
+As numerous scholars have noted, one significant barrier to accountability is the culture of 
+industrial and legal secrecy that dominates AI development. 21  Just as many AI technologies are 
+“black boxes”, so are the industrial cultures that create them. 22  Many of the fundamental building 
+blocks required to understand AI systems and to ensure certain forms of accountability – from 
+training data, to data models, to the code dictating algorithmic functions, to implementation 
+guidelines and software, to the business decisions that directed design and development – are 
+rarely accessible to review, hidden by corporate secrecy laws.  
+The current accountability gap is also caused by the incentives driving the rapid pace of technical 
+AI research. The push to “innovate,” publish first, and present a novel addition to the technical 
+domain has created an accelerated cadence in the field of AI, and in technical disciplines more 
+broadly. This comes at the cost of considering empirical questions of context and use, or 
+substantively engaging with ethical concerns. 23  Similarly, technology companies are driven by 
+pressures to “launch and iterate,” which assume complex social and political questions will be 
+handled by policy and legal departments, leaving developers and sales departments free from the 
+responsibility of considering the potential downsides. The “move fast and break things” culture 
+provides little incentive for ensuring meaningful public accountability or engaging the 
+communities most likely to experience harm. 24  This is particularly problematic as the accelerated 
+application of AI systems in sensitive social and political domains presents risks to marginalized 
+communities.  
+The challenge to create better governance and greater accountability for AI poses particular 
+problems when such systems are woven into the fabric of government and public institutions. 
+The lack of transparency, notice, meaningful engagement, accountability, and oversight creates 
+serious structural barriers for due process and redress for unjust and discriminatory decisions. 
+In this year’s report, we assess many pressing issues facing us as AI tools are deployed further 
+into the institutions that govern everyday life. We focus on the biggest industry players, because 
+the number of companies able to create AI at scale is very small, while their power and reach is 
+global. We evaluate the current range of responses from industry, governments, researchers,  
+11 
+activists, and civil society at large. We suggest a series of substantive approaches and make ten 
+specific recommendations. Finally, we share the latest research and policy strategies that can 
+contribute to greater accountability, as well as a richer understanding of AI systems in a wider 
+social context. 
+1. THE INTENSIFYING PROBLEM SPACE 
+In identifying the most pressing social implications of AI this year, we look closely at the role of AI 
+in widespread surveillance in multiple countries around the world, and at the implications for 
+rights and liberties. In particular, we consider the increasing use of facial recognition, and a 
+subclass of facial recognition known as affect recognition, and assess the growing calls for 
+regulation. Next, we share our findings on the government use of automated decision systems, 
+and what questions this raises for fairness, transparency, and due process when such systems 
+are protected by trade secrecy and other laws that prevent auditing and close examination. 25 
+Finally, we look at the practices of deploying experimental systems “in the wild,” testing them on 
+human populations. We analyze who has the most to gain, and who is at greatest risk of 
+experiencing harm. 
+1.1 AI is Amplifying Widespread Surveillance 
+This year, we have seen AI amplify large-scale surveillance through techniques that analyze video, 
+audio, images, and social media content across entire populations and identify and target 
+individuals and groups. While researchers and advocates have long warned about the dangers of 
+mass data collection and surveillance, 26  AI raises the stakes in three areas: automation, scale of 
+analysis, and predictive capacity. Specifically, AI systems allow automation of surveillance 
+capabilities far beyond the limits of human review and hand-coded analytics. Thus, they can serve 
+to further centralize these capabilities in the hands of a small number of actors. These systems 
+also exponentially scale analysis and tracking across large quantities of data, attempting to make 
+connections and inferences that would have been difficult or impossible before their introduction. 
+Finally, they provide new predictive capabilities to make determinations about individual character 
+and risk profiles, raising the possibility of granular population controls.  
+China has offered several examples of alarming AI-enabled surveillance this year, which we know 
+about largely because the government openly acknowledges them. However, it’s important to 
+note that many of the same infrastructures already exist in the U.S. and elsewhere, often 
+produced and promoted by private companies whose marketing emphasizes beneficial use 
+cases. In the U.S. the use of these tools by law enforcement and government is rarely open to 
+public scrutiny, as we will review, and there is much we do not know. Such infrastructures and 
+capabilities could easily be turned to more surveillant ends in the U.S., without public disclosure 
+and oversight, depending on market incentives and political will.  
+12 
+In China, military and state-sanctioned automated surveillance technology is being deployed to 
+monitor large portions of the population, often targeting marginalized groups. Reports include 
+installation of facial recognition tools at the Hong Kong-Shenzhen border, 27  using flocks of robotic 
+dove-like drones in five provinces across the country, 28  and the widely reported social credit 
+monitoring system, 29  each of which illustrates how AI-enhanced surveillance systems can be 
+mobilized as a means of far-reaching social control. 30  
+The most oppressive use of these systems is reportedly occuring in the Xinjiang Autonomous 
+Region, described by  The Economist  as a “police state like no other.” 31  Surveillance in this Uighur 
+ethnic minority area is pervasive, ranging from physical checkpoints and programs where Uighur 
+households are required to “adopt” Han Chinese officials into their family, to the widespread use of 
+surveillance cameras, spyware, Wi-Fi sniffers, and biometric data collection, sometimes by 
+stealth. Machine learning tools integrate these streams of data to generate extensive lists of 
+suspects for detention in re-education camps, built by the government to discipline the group. 
+Estimates of the number of people detained in these camps range from hundreds of thousands to 
+nearly one million. 32  
+These infrastructures are not unique to China. Venezuela announced the adoption of a new smart 
+card ID known as the “carnet de patria,” which, by integrating government databases linked to 
+social programs, could enable the government to monitor citizens’ personal finances, medical 
+history, and voting activity. 33  In the United States, we have seen similar efforts. The Pentagon has 
+funded research on AI-enabled social media surveillance to help predict large-scale population 
+behaviors, 34  and the U.S. Immigration and Customs Enforcement (ICE) agency is using an 
+Investigative Case Management System developed by Palantir and powered by Amazon Web 
+Services in its deportation operations. 35  The system integrates public data with information 
+purchased from private data brokers to create profiles of immigrants in order to aid the agency in 
+profiling, tracking, and deporting individuals. 36  These examples show how AI systems increase 
+integration of surveillance technologies into data-driven models of social control and amplify the 
+power of such data, magnifying the stakes of misuse and raising urgent and important questions 
+as to how basic rights and liberties will be protected. 
+The faulty science and dangerous history of affect recognition 
+We are also seeing new risks emerging from unregulated facial recognition systems. These 
+systems facilitate the detection and recognition of individual faces in images or video, and can be 
+used in combination with other tools to conduct more sophisticated forms of surveillance, such 
+as automated lip-reading, offering the ability to observe and interpret speech from a distance. 37 
+Among a host of AI-enabled surveillance and tracking techniques, facial recognition raises 
+particular civil liberties concerns. Because facial features are a very personal form of biometric 
+identification that is extremely difficult to change, it is hard to subvert or “opt out” of its operations.  
+13 
+And unlike other tracking tools, facial recognition seeks to use AI for much more than simply 
+recognizing faces. Once identified, a face can be linked with other forms of personal records and 
+identifiable data, such as credit score, social graph, or criminal record. 
+Affect recognition, a subset of facial recognition, aims to interpret faces to automatically detect 
+inner emotional states or even hidden intentions. This approach promises a type of emotional 
+weather forecasting: analyzing hundreds of thousands of images of faces, detecting 
+“micro-expressions,” and mapping these expressions to “true feelings.” 38  This reactivates a long 
+tradition of physiognomy – a pseudoscience that claims facial features can reveal innate aspects 
+of our character or personality. Dating from ancient times, scientific interest in physiognomy grew 
+enormously in the nineteenth century, when it became a central method for scientific forms of 
+racism and discrimination. 39  Although physiognomy fell out of favor following its association with 
+Nazi race science, researchers are worried about a reemergence of physiognomic ideas in affect 
+recognition applications. 40  The idea that AI systems might be able to tell us what a student, a 
+customer, or a criminal suspect is really feeling or what type of person they intrinsically are is 
+proving attractive to both corporations and governments, even though the scientific justifications 
+for such claims are highly questionable, and the history of their discriminatory purposes 
+well-documented. 
+The case of affect detection reveals how machine learning systems can easily be used to 
+intensify forms of classification and discrimination, even when the basic foundations of these 
+theories remain controversial among psychologists. The scientist most closely associated with 
+AI-enabled affect detection is the psychologist Paul Ekman, who asserted that emotions can be 
+grouped into a small set of basic categories like anger, disgust, fear, happiness, sadness, and 
+surprise. 41  Studying faces, according to Ekman, produces an objective reading of authentic 
+interior states—a direct window to the soul. Underlying his belief was the idea that emotions are 
+f
+ ixed and universal, identical across individuals, and clearly visible in observable biological 
+mechanisms regardless of cultural context. But Ekman’s work has been deeply criticized by 
+psychologists, anthropologists, and other researchers who have found his theories do not hold up 
+under sustained scrutiny. 42  The psychologist Lisa Feldman Barrett and her colleagues have 
+argued that an understanding of emotions in terms of these rigid categories and simplistic 
+physiological causes is no longer tenable. 43  Nonetheless, AI researchers have taken his work as 
+fact, and used it as a basis for automating emotion detection. 44  
+Contextual, social, and cultural factors — how, where, and by whom such emotional signifiers are 
+expressed — play a larger role in emotional expression than was believed by Ekman and his peers. 
+In light of this new scientific understanding of emotion, any simplistic mapping of a facial 
+expression onto basic emotional categories through AI is likely to reproduce the errors of an 
+outdated scientific paradigm. It also raises troubling ethical questions about locating the arbiter of 
+someone’s “real” character and emotions outside of the individual, and the potential abuse of  
+14 
+power that can be justified based on these faulty claims. Psychiatrist Jamie Metzl documents a 
+recent cautionary example: a pattern in the 1960s of diagnosing Black people with schizophrenia 
+if they supported the civil rights movement. 45  Affect detection combined with large-scale facial 
+recognition has the potential to magnify such political abuses of psychological profiling.  
+In the realm of education, some U.S. universities have considered using affect analysis software 
+on students. 46  The University of St. Thomas, in Minnesota, looked at using a system based on 
+Microsoft’s facial recognition and affect detection tools to observe students in the classroom 
+using a webcam. The system predicts the students’ emotional state. An overview of student 
+sentiment is viewable by the teacher, who can then shift their teaching in a way that “ensures 
+student engagement,” as judged by the system. This raises serious questions on multiple levels: 
+what if the system, with a simplistic emotional model, simply cannot grasp more complex states? 
+How would a student contest a determination made by the system? What if different students are 
+seen as “happy” while others are “angry”—how should the teacher redirect the lesson? What are 
+the privacy implications of such a system, particularly given that, in the case of the pilot program, 
+there is no evidence that students were informed of its use on them? 
+Outside of the classroom, we are also seeing personal assistants, like Alexa and Siri, seeking to 
+pick up on the emotional undertones of human speech, with companies even going so far as to 
+patent methods of marketing based on detecting emotions, as well as mental and physical 
+health. 47  The AI-enabled emotion measurement company Affectiva now promises it can promote 
+safer driving by monitoring “driver and occupant emotions, cognitive states, and reactions to the 
+driving experience...from face and voice.” 48  Yet there is little evidence that any of these systems 
+actually work across different individuals, contexts, and cultures, or have any safeguards put in 
+place to mitigate concerns about privacy, bias, or discrimination in their operation. Furthermore, 
+as we have seen in the large literature on bias and fairness, classifications of this nature not only 
+have direct impacts on human lives, but also serve as data to train and influence other AI 
+systems. This raises the stakes for any use of affect recognition, further emphasizing why it 
+should be critically examined and its use severely restricted. 
+Facial recognition amplifies civil rights concerns 
+Concerns are intensifying that facial recognition increases racial discrimination and other biases 
+in the criminal justice system. Earlier this year, the American Civil Liberties Union (ACLU) 
+disclosed that both the Orlando Police Department and the Washington County Sheriff’s 
+department were using Amazon’s Rekognition system, which boasts that it can perform “real-time 
+face recognition across tens of millions of faces” and detect “up to 100 faces in challenging 
+crowded photos.” 49  In Washington County, Amazon specifically worked with the Sheriff’s 
+department to create a mobile app that could scan faces and compare them against a database  
+15 
+of at least 300,000 mugshots. 50  An Amazon representative recently revealed during a talk that 
+they have been considering applications where Orlando’s network of surveillance cameras could 
+be used in conjunction with facial recognition technology to find a “person of interest” wherever 
+they might be in the city. 51 
+In addition to the privacy and mass surveillance concerns commonly raised, the use of facial 
+recognition in law enforcement has also intersected with concerns of racial and other biases. 
+Researchers at the ACLU and the University of California (U.C.) Berkeley tested Amazon’s 
+Rekognition tool by comparing the photos of sitting members in the United States Congress with 
+a database containing 25,000 photos of people who had been arrested. The results showed 
+significant levels of inaccuracy: Amazon’s Rekognition incorrectly identified 28 members of 
+Congress as people from the arrest database. Moreover, the false positives disproportionately 
+occurred among non-white members of Congress, with an error rate of nearly 40% compared to 
+only 5% for white members. 52  Such results echo a string of findings that have demonstrated that 
+facial recognition technology is, on average, better at detecting light-skinned people than 
+dark-skinned people, and better at detecting men than women. 53  
+In its response to the ACLU, Amazon acknowledged that “the Rekognition results can be 
+significantly skewed by using a facial database that is not appropriately representative.” 54  Given 
+the deep and historical racial biases in the criminal justice system, most law enforcement 
+databases are unlikely to be “appropriately representative.” 55  Despite these serious flaws, ongoing 
+pressure from civil rights groups, and protests from Amazon employees over the potential for 
+misuse of these technologies, Amazon Web Services CEO Andrew Jassy recently told employees 
+that “we feel really great and really strongly about the value that Amazon Rekognition is providing 
+our customers of all sizes and all types of industries in law enforcement and out of law 
+enforcement.” 56 
+Nor is Amazon alone in implementing facial recognition technologies in unaccountable ways. 
+Investigative journalists recently disclosed that IBM and the New York City Police Department 
+(NYPD) partnered to develop such a system that included “ethnicity search” as a custom feature, 
+trained on thousands of hours of NYPD surveillance footage. 57  Use of facial recognition software 
+in the private sector has expanded as well. 58  Major retailers and venues have already begun using 
+these technologies to detect shoplifters, monitor crowds, and even “scan for unhappy customers,” 
+using facial recognition systems instrumented with “affect detection” capabilities. 59 
+These concerns are amplified by a lack of laws and regulations. There is currently no federal 
+legislation that seeks to provide standards, restrictions, requirements, or guidance regarding the 
+development or use of facial recognition technology. In fact, most existing federal legislation 
+looks to promote the use of facial recognition for surveillance, immigration enforcement, 
+employment verification, and domestic entry-exit systems. 60  The laws that we do have are 
+piecemeal, and none specifically address facial recognition. Among these is the Biometric 
+Information Privacy Act, a 2008 Illinois law that sets forth stringent rules regarding the collection 
+of biometrics. While the law does not mention facial recognition, given that the technology was 
+16 
+not widely available in 2008, many of its requirements, such as obtaining consent, are reasonably 
+interpreted to apply. 61  More recently, several municipalities and a local transit system have 
+adopted ordinances that seek to create greater transparency and oversight of data collection and 
+use requirements regarding the acquisition of surveillance technologies, which would include 
+facial recognition based on the expansive definition in these ordinances. 62 
+Opposition to the use of facial recognition tools by government agencies is growing. Earlier this 
+year, AI Now joined the ACLU and over 30 other research and advocacy organizations calling on 
+Amazon to stop selling facial recognition software to government agencies after the ACLU 
+uncovered documents showing law enforcement use of Amazon’s Rekognition API. 63  Members of 
+Congress are also pushing Amazon to provide more information. 64  
+Some have gone further, calling for an outright ban. Scholars Woodrow Hartzog and Evan Selinger 
+argue that facial recognition technology is a “tool for oppression that’s perfectly suited for 
+governments to display unprecedented authoritarian control and an all-out privacy-eviscerating 
+machine,” necessitating extreme caution and diligence before being applied in our contemporary 
+digital ecosystem. 65  Critiquing the Stanford “gaydar” study that claimed its deep neural network 
+was more accurate than humans at predicting sexuality from facial images, 66  Frank Pasquale 
+wrote that “there are some scientific research programs best not pursued - and this might be one 
+of them.” 67  
+Kade Crockford, Director of the Technology for Liberty Program at ACLU of Massachusetts, also 
+wrote in favor of a ban, stating that “artificial intelligence technologies like face recognition 
+systems fundamentally change the balance of power between the people and the 
+government...some technologies are so dangerous to that balance of power that they must be 
+rejected.” 68  Microsoft President Brad Smith has called for government regulation of facial 
+recognition, while Rick Smith, CEO of law enforcement technology company Axon, recently stated 
+that the “accuracy thresholds” of facial recognition tools aren’t “where they need to be to be 
+making operational decisions.” 69 
+The events of this year have strongly underscored the urgent need for stricter regulation of both 
+facial and affect recognition technologies. Such regulations should severely restrict use by both 
+the public and the private sector, and ensure that communities affected by these technologies are 
+the final arbiters of whether they are used at all. This is especially important in situations where 
+basic rights and liberties are at risk, requiring stringent oversight, audits, and transparency. 
+Linkages should not be permitted between private and government databases. At this point, given 
+the evidence in hand, policymakers should not be funding or furthering the deployment of these 
+systems in public spaces. 
+17 
+1.2  The Risks of Automated Decision Systems in 
+Government 
+Over the past year, we have seen a substantial increase in the adoption of Automated Decision 
+Systems (ADS) across government domains, including criminal justice, child welfare, education, 
+and immigration. Often adopted under the theory that they will improve government efficiency or 
+cost-savings, ADS seek to aid or replace various decision-making processes and policy 
+determinations. However, because the underlying models are often proprietary and the systems 
+frequently untested before deployment, many community advocates have raised significant 
+concerns about lack of due process, accountability, community engagement, and auditing. 70 
+Such was the case for Tammy Dobbs, who moved to Arkansas in 2008 and signed up for a state 
+disability program to help her with her cerebral palsy. 71  Under the program, the state sent a 
+qualified nurse to assess Tammy to determine the number of caregiver hours she would need. 
+Because Tammy spent most of her waking hours in a wheelchair and had stiffness in her hands, 
+her initial assessment allocated 56 hours of home care per week. Fast forward to 2016, when the 
+state assessor arrived with a new ADS on her laptop. Using a proprietary algorithm, this system 
+calculated the number of hours Tammy would be allotted. Without any explanation or opportunity 
+for comment, discussion, or reassessment, the program allotted Tammy 32 hours per week, a 
+massive and sudden drop that Tammy had no chance to prepare for and that severely reduced 
+her quality of life. 
+Nor was Tammy’s situation exceptional. According to Legal Aid of Arkansas attorney Kevin De 
+Liban, hundreds of other individuals with disabilities also received dramatic reductions in hours, all 
+without any meaningful opportunity to understand or contest their allocations. Legal Aid 
+subsequently sued the State of Arkansas, eventually winning a ruling that the new algorithmic 
+allocation program was erroneous and unconstitutional. Yet by then, much of the damage to the 
+lives of those affected had been done. 72 
+The Arkansas disability cases provide a concrete example of the substantial risks that occur 
+when governments use ADS in decisions that have immediate impacts on vulnerable populations. 
+While individual assessors may also suffer from bias or flawed logic, the impact of their 
+case-by-case decisions has nowhere near the magnitude or scale that a single flawed ADS can 
+have across an entire population. 
+The increased introduction of such systems comes at a time when, according to the World 
+Income Inequality Database, the United States has the highest income inequality rate of all 
+western countries. 73  Moreover, Federal Reserve data shows wealth inequalities continue to grow, 
+and racial wealth disparities have more than tripled in the last 50 years, with current policies set to 
+exacerbate such problems. 74  In 2018 alone, we have seen a U.S. executive order cutting funding 
+for social programs that serve the country’s poorest citizens, 75  alongside a proposed federal 
+18 
+budget that will significantly reduce low-income and affordable housing, 76  the implementation of 
+onerous work requirements for Medicaid, 77  and a proposal to cut food assistance benefits for 
+low-income seniors and people with disabilities. 78  
+In the context of such policies, agencies are under immense pressure to cut costs, and many are 
+looking to ADS as a means of automating hard decisions that have very real effects on those 
+most in need. 79  As such, many ADS systems are often implemented with the goal of doing more 
+with less in the context of austerity policies and cost-cutting. They are frequently designed and 
+configured primarily to achieve these goals, with their ultimate effectiveness being evaluated 
+based on their ability to trim costs, often at the expense of the populations such tools are 
+ostensibly intended to serve. 80  As researcher Virginia Eubanks argues, “What seems like an effort 
+to lower program barriers and remove human bias often has the opposite effect, blocking 
+hundreds of thousands of people from receiving the services they deserve.” 81 
+When these problems arise, they are frequently difficult to remedy. Few ADS are designed or 
+implemented in ways that easily allow affected individuals to contest, mitigate, or fix adverse or 
+incorrect decisions. Additionally, human discretion and the ability to intervene or override a 
+system’s determination is often substantially limited or removed from case managers, social 
+workers, and others trained to understand the context and nuance of a particular person and 
+situation. 82  These front-line workers become mere intermediaries, communicating inflexible 
+decisions made by automated systems, without the ability to alter them. 
+Unlike the civil servants who have historically been responsible for such decisions, many ADS 
+come from private vendors and are frequently implemented without thorough testing, review, or 
+auditing to ensure their fitness for a given domain. 83  Nor are these systems typically built with any 
+explicit form of oversight or accountability. This makes discovery of problematic automated 
+outcomes difficult, especially since such errors and evidence of discrimination frequently 
+manifest as collective harms, only recognizable as a pattern across many individual cases. 
+Detecting such problems requires oversight and monitoring. It also requires access to data that is 
+often neither available to advocates and the public nor monitored by government agencies. 
+For example, the Houston Federation of Teachers sued the Houston Independent School District 
+for procuring a third-party ADS to use student test data to make teacher employment decisions, 
+including which teachers were promoted and which were terminated. It was revealed that no one 
+in the district – not a single employee – could explain or even replicate the determinations made 
+by the system, even though the district had access to all the underlying data. 84  Teachers who 
+sought to contest the determinations were told that the “black box” system was simply to be 
+believed and could not be questioned. Even when the teachers brought a lawsuit, claiming 
+constitutional, civil rights, and labor law violations, the ADS vendor fought against providing any 
+access to how its system worked. As a result, the judge ruled that the use of this ADS in public 
+employee cases could run afoul of constitutional due process protections, especially when trade 
+secrecy blocked employees’ ability to understand how decisions were made. The case has 
+subsequently been settled, with the District agreeing to abandon the third-party ADS. 
+19 
+Similarly, in 2013, Los Angeles County adopted an ADS to assess imminent danger or harm to 
+children, and to predict the likelihood of a family being re-referred to the child welfare system 
+within 12 to 18 months. The County did not perform a review of the system or assess the efficacy 
+of using predictive analytics for child safety and welfare. It was only after the death of a child 
+whom the system failed to identify as at-risk that County leadership directed a review, which 
+raised serious questions regarding the system’s validity. The review specifically noted that the 
+system failed to provide a comprehensive picture of a given family, “but instead focus[ed] on a few 
+broad strokes without giving weight to important nuance.” 85  Virginia Eubanks found similar 
+problems in her investigation of an ADS developed by the same private vendor for use in 
+Allegheny County, PA. This system produced biased outcomes because it significantly 
+oversampled poor children from working class communities, especially communities of color, in 
+effect subjecting poor parents and children to more frequent investigation. 86  
+Even in the face of acknowledged issues of bias and the potential for error in high-stakes 
+domains, these systems are being rapidly adopted. The Ministry of Social Development in New 
+Zealand supported the use of a predictive ADS system to identify children at risk of maltreatment, 
+despite their recognizing that the system raised “significant ethical concerns.” They defended this 
+on the grounds that the benefits “plausibly outweighed” the potential harms, which included 
+reconfiguring child welfare as a statistical issue. 87  
+These cases not only highlight the need for greater transparency, oversight, and accountability in 
+the adoption, development, and implementation of ADS, but also the need for examination of the 
+limitations of these systems overall, and of the economic and policy factors that accompany the 
+push to apply such systems. Virginia Eubanks, who investigated Allegheny County’s use of an 
+ADS in child welfare, looked at this and a number of case studies to show how ADS are often 
+adopted to avoid or obfuscate broader structural and systemic problems in society – problems 
+that are often beyond the capacity of cash-strapped agencies to address meaningfully. 88  
+Other automated systems have also been proposed as a strategy to combat pre-existing 
+problems within government systems. For years, criminal justice advocates and researchers have 
+pushed for the elimination of cash bail, which has been shown to disproportionately harm 
+individuals based on race and socioeconomic status while at the same time failing to enhance 
+public safety. 89  In response, New Jersey and California recently passed legislation aimed at 
+addressing this concern. However, instead of simply ending cash bail, they replaced it with a 
+pretrial assessment system designed to algorithmically generate “risk” scores that claim to 
+predict whether a person should go free or be detained in jail while awaiting trial. 90 
+The shift from policies such as cash bail to automated systems and risk assessment scoring is 
+still relatively new, and is proceeding even without substantial research examining the potential to 
+amplify discrimination within the criminal justice system. Yet there are some early indicators that 
+raise concern. New Jersey’s law went into effect in 2017, and while the state has experienced a 
+decline in its pretrial population, advocates have expressed worry that racial disparities in the risk 
+20 
+assessment system persist. 91  Similarly, when California’s legislation passed earlier this year, many 
+of the criminal justice advocates who pushed for the end of cash bail, and supported an earlier 
+version of the bill, opposed its final version due to the risk assessment requirement. 92 
+Education policy is also feeling the impact of automated decision systems. A University College 
+London professor is among those who argued for AI to replace standardized testing, suggesting 
+that UCL Knowledge Lab’s AIAssess can be “trusted...with the assessment of our children’s 
+knowledge and understanding,” and can serve to replace or augment more traditional testing. 93 
+However, much like other forms of AI, there is a growing body of research that shows automated 
+essay scoring systems may encode bias against certain linguistic and ethnic groups in ways that 
+replicate patterns of marginalization. 94  Unfair decisions based on automated scores assigned to 
+students from historically and systemically disadvantaged groups are likely to have profound 
+consequences on children’s lives, and to exacerbate existing disparities in access to employment 
+opportunities and resources. 95  
+The implications of educational ADS go beyond testing to other areas, such as school 
+assignments and even transportation. The City of Boston was in the spotlight this year after two 
+failed efforts to address school equity via automated systems. First, the school district adopted a 
+geographically-driven school assignment algorithm, intended to provide students access to higher 
+quality schools closer to home. The city’s goal was to increase the racial and geographic 
+integration in the school district, but a report assessing the impact of the system determined that 
+it did the opposite: while it shortened student commutes, it ultimately reduced school 
+integration. 96  Researchers noted that this was, in part, because it was impossible for the system 
+to meet its intended goal given the history and context within which it was being used. The 
+geographic distribution of quality schools in Boston was already inequitable, and the pre-existing 
+racial disparities that played a role in placement at these schools created complications that 
+could not be overcome by an algorithm. 97  
+Following this, the Boston school district tried again to use an algorithmic system to improve 
+inequity, this time designing it to reconfigure school start times – aiming to begin high school 
+later, and middle school earlier. This was done in an effort to improve student health and 
+performance based on a recognition of students’ circadian rhythms at different ages, and to 
+optimize use of school buses to produce cost savings. It also aimed to increase racial equity, 
+since students of color primarily attended schools with inconvenient start times compounded by 
+long bus rides. The city developed an ADS that optimized for these goals. However, it was never 
+implemented because of significant public backlash, which ultimately resulted in the resignation 
+of the superintendent. 98 
+In this case, the design process failed to adequately recognize the needs of families, or include 
+them in defining and reviewing system goals. Under the proposed system, parents with children in 
+both high school and middle school would need to reconfigure their schedules for vastly different 
+start and end times, putting strain on those without this flexibility. The National Association for 
+the Advancement of Colored People (NAACP) and the Lawyers’ Committee for Civil Rights and 
+21 
+Economic Justice opposed the plan because of the school district’s failure to appreciate that 
+parents of color and lower-income parents often rely on jobs that lack work schedule flexibility 
+and may not be able to afford additional child care. 99 
+These failed efforts demonstrate two important issues that policymakers must consider when 
+evaluating the use of these systems. First, unaddressed structural and systemic problems will 
+persist and will likely undermine the potential benefits of these systems if they are not addressed 
+prior to a system’s design and implementation. Second, robust and meaningful community 
+engagement is essential before a system is put in place and should be included in the process of 
+establishing a system’s goals and purpose.  
+In AI Now’s Algorithmic Impact Assessment (AIA) framework, community engagement is an 
+integral part of any ADS accountability process, both as part of the design stage as well as before, 
+during, and after implementation. 100  When affected communities have the opportunity to assess 
+and potentially reject the use of systems that are not acceptable, and to call out fundamental 
+f
+ laws in the system before it is put in place, the validity and legitimacy of the system is vastly 
+improved. Such engagement serves communities and government agencies: if parents of color 
+and lower-income parents in Boston were meaningfully engaged in assessing the goals of the 
+school start time algorithmic intervention, their concerns might have been accounted for in the 
+design of the system, saving the city time and resources, and providing a much-needed model of 
+oversight.  
+Above all, accountability in the government use of algorithmic systems is impossible when the 
+systems making recommendations are “black boxes.” When third-party vendors insist on trade 
+secrecy to keep their systems opaque, it makes any path to redress or appeal extremely 
+difficult. 101  This is why vendors should waive trade secrecy and other legal claims that would 
+inhibit the ability to understand, audit, or test their systems for bias, error, or other issues. It is 
+important for both people in government and those who study the effects of these systems to 
+understand why automated recommendations are made, and to be able to trust their validity. It is 
+even more critical that those whose lives are negatively impacted by these systems be able to 
+contest and appeal adverse decisions. 102 
+Governments should be cautious: while automated decision systems may promise short-term 
+cost savings and efficiencies, it is governments, not third party vendors, who will ultimately be 
+held responsible for their failings. Without adequate transparency, accountability, and oversight, 
+these systems risk introducing and reinforcing unfair and arbitrary practices in critical 
+government determinations and policies. 103 
+1.3  Experimenting on Society: Who Bears the Burden? 
+Over the last ten years, the funding and focus on technical AI research and development has 
+accelerated. But efforts at ensuring that these systems are safe and non-discriminatory have not 
+22 
+received the same resources or attention. Currently, there are few established methods for 
+measuring, validating, and monitoring the effects of AI systems “in the wild”. AI systems tasked 
+with significant decision making are effectively tested on live populations, often with little 
+oversight or a clear regulatory framework.  
+For example, in March 2018, a self-driving Uber was navigating the Phoenix suburbs and failed to 
+“see” a woman, hitting and killing her. 104  Last March, Tesla confirmed that a second driver had 
+been killed in an accident in which the car’s autopilot technology was engaged. 105  Neither 
+company suffered serious consequences, and in the case of Uber, the person minding the 
+autonomous vehicle was ultimately blamed, even though Uber had explicitly disabled the vehicle’s 
+system for automatically applying brakes in dangerous situations. 106  Despite these fatal errors, 
+Alphabet Inc.’s Waymo recently announced plans for an “early rider program” in Phoenix. 107 
+Residents can sign up to be Waymo test subjects, and be driven automatically in the process.  
+Many claim that the occasional autonomous vehicle fatality needs to be put in the context of the 
+existing ecosystem, in which many driving-related deaths happen without AI. 108  However, because 
+regulations and liability regimes govern humans and machines differently, risks generated from 
+machine-human interactions do not cleanly fall into a discrete regulatory or accountability 
+category. Strong incentives for regulatory and jurisdictional arbitrage exist in this and many other 
+AI domains. For example, the fact that Phoenix serves as the site of Waymo and Uber testing is 
+not an accident. Early this year, Arizona, perhaps swayed by a promise of technology jobs and 
+capital, made official what the state allowed in practice since 2015: fully autonomous vehicles 
+without anyone behind the wheel are permitted on public roads. This policy was put in place 
+without any of the regulatory scaffolding that would be required to contend with the complex 
+issues that are raised in terms of liability and accountability. In the words of the  Phoenix New 
+Times : “Arizona has agreed to step aside and see how this technology develops. If something 
+goes wrong, well, there's no plan for that yet.” 109  This regulatory accountability gap is clearly visible 
+in the Uber death case, apparently caused by a combination of corporate expedience (disabling 
+the automatic braking system) and backup driver distraction. 110 
+While autonomous vehicles arguably present AI’s most straightforward non-military dangers to 
+human safety, other AI domains also raise serious concerns. For example, IBM’s Watson for 
+Oncology is already being tested in hospitals across the globe, assisting in patient diagnostics 
+and clinical care. Increasingly, its effectiveness, and the promises of IBM’s marketing, are being 
+questioned. Investigative reporters gained access to internal documents that paint a troubling  
+picture of IBM’s system, including its recommending “unsafe and incorrect cancer treatments.” 
+While this system was still in its trial phase, it raised serious concerns about the incentives driving 
+the rush to integrate such technology, and the lack of clinical validation and peer-reviewed 
+research attesting to IBM’s marketing claims of effectiveness. 111  
+Such events have not slowed AI deployment in healthcare. Recently, the U.S. Food and Drug 
+Administration (FDA) issued a controversial decision to clear the new Apple Watch, which 
+features a built-in electrocardiogram (EKG) and the ability to notify a user of irregular heart 
+23 
+rhythm, as safe for consumers. 112  Here, concerns that the FDA may be moving too quickly in an 
+attempt to keep up with the pace of innovation have joined with concerns around data privacy and 
+security. 113  Similarly, DeepMind Health’s decision to move its Streams Application, a tool designed 
+to support decision-making by nurses and health practitioners, under the umbrella of Google, 
+caused some to worry that DeepMind’s promise to not share the data of patients would be 
+broken. 114 
+Children and young adults are frequently subjects of such experiments. Earlier this year, it was 
+revealed that Pearson, a major AI-education vendor, inserted “social-psychological interventions” 
+into one of its commercial learning software programs to test how 9,000 students would respond. 
+They did this without the consent or knowledge of students, parents, or teachers. 115  The company 
+then tracked whether students who received “growth-mindset” messages through the learning 
+software attempted and completed more problems than students who did not. This psychological 
+testing on unknowing populations, especially young people in the education system, raises 
+significant ethical and privacy concerns. It also highlights the growing influence of private 
+companies in purportedly public domains, and the lack of transparency and due process that 
+accompany the current practices of AI deployment and integration. 
+Here we see not only examples of the real harms that can come from biased and inaccurate AI 
+systems, but evidence of the AI industry’s willingness to conduct early releases of experimental 
+tools on human populations. As Amazon recently responded when criticized for monetizing 
+people’s wedding and baby registries with deceptive advertising tactics, “we’re constantly 
+experimenting.” 116  This is a repeated pattern when market dominance and profits are valued over 
+safety, transparency, and assurance. Without meaningful accountability frameworks, as well as 
+strong regulatory structures, this kind of unchecked experimentation will only expand in size and 
+scale, and the potential hazards will grow. 
+2. EMERGING SOLUTIONS IN 2018 
+2.1  Bias Busting and Formulas for Fairness: the Limits of 
+Technological “Fixes” 
+Over the past year, we have seen growing consensus that AI systems perpetuate and amplify 
+bias, and that computational methods are not inherently neutral and objective. This recognition 
+comes in the wake of a string of examples, including evidence of bias in algorithmic pretrial risk 
+assessments and hiring algorithms, and has been aided by the work of the Fairness,  
+Accountability, and Transparency in Machine Learning community. 117  The community has been at 
+the center of an emerging body of academic research on AI-related bias and fairness, producing 
+insights into the nature of these issues, along with methods aimed at remediating bias. These 
+approaches are now being operationalized in industrial settings.  
+24 
+In the search for “algorithmic fairness”, many definitions of fairness, along with strategies to 
+achieve it, have been proposed over the past few years, primarily by the technical community. 118 
+This work has informed the development of new algorithms and statistical techniques that aim to 
+diagnose and mitigate bias. The success of such techniques is generally measured against one or 
+another computational definition of fairness, based on a mathematical set of results. However, 
+the problems these techniques ultimately aim to remedy have deep social and historical roots, 
+some of which are more cleanly captured by discrete mathematical representations than others. 
+Below is a brief survey of some of the more prominent approaches to understanding and defining 
+issues involving algorithmic bias and fairness. 
+● Allocative harms  describe the effects of AI systems that unfairly withhold services, 
+resources, or opportunities from some. Such harms have captured much of the attention 
+of those dedicated to building technical interventions that ensure fair AI systems, in part 
+because it is (theoretically) possible to quantify such harms and their remediation. 119 
+However, we have seen less attention paid to fixing systems that amplify and reproduce 
+representational harms : the harm caused by systems that reproduce and amplify harmful 
+stereotypes, often doing so in ways that mirror assumptions used to justify discrimination 
+and inequality. 
+In a keynote of the 2017 Conference on Neural Information Processing (NeurIPS), AI Now 
+cofounder Kate Crawford described the way in which historical patterns of discrimination 
+and classification, which often construct harmful representations of people based on 
+perceived differences, are reflected in the assumptions and data that inform AI systems, 
+often resulting in allocative harms. 120  This perspective requires one to move beyond 
+locating biases in an algorithm or dataset, and to consider “the role of AI in harmful 
+representations of human identity,” and the way in which such harmful representations are 
+both shaped, and shape, our social and cultural understandings of ourselves and each 
+other. 121 
+● Observational fairness strategies  attempt to diagnose and mitigate bias by considering a 
+dataset (either data used for training an AI model, or the input data processed by such a 
+model), and applying methods to the data aimed at detecting whether it encodes bias 
+against individuals or groups based on characteristics such as race, gender, or 
+socioeconomic standing. These characteristics are typically referred to as protected or 
+sensitive attributes. The majority of observational fairness approaches can be categorized 
+as being a form of either anti-classification, classification parity, or calibration, as 
+proposed by Sam Corbett-Davies and Sharad Goel. 122  Observational fairness strategies 
+have increasingly emerged through efforts from the community to contend with the 
+limitations of technical fairness work and to provide entry points for other disciplines. 123 
+● Anti-classification strategies  declare a machine learning model to be fair if it does not 
+depend on protected attributes in the data set. For instance, this strategy considers a 
+25 
+pretrial risk assessment of two defendants who differ based on race or gender but are 
+identical in terms of their other personal information to be “fair” if they are assigned the 
+same risk. This strategy often requires omitting all protected attributes and their “proxies” 
+from the data set that is used to train a model (proxies being any attributes that are 
+correlated to protected attributes, such as ZIP code being correlated with race). 124  
+● Classification parity  declares a model fair when its predictive performance is equal across 
+groupings that are defined by protected attributes. For example, classification parity would 
+ensure that the percentage of people an algorithm turns down for a loan when they are 
+actually creditworthy (its “false negative” rate) is the same for both Black and white 
+populations. In practice, this strategy often results in decreasing the “accuracy” for certain 
+populations in order to match that of others. 
+● Calibration strategies  look less at the data and more at the outcome once an AI system 
+has produced a decision or prediction. These approaches work to ensure that outcomes 
+do not depend on protected attributes. For example, in the case of pretrial risk 
+assessment, applying a calibration strategy would aim to make sure that among a pool of 
+defendants with a similar risk score, the proportion who actually do reoffend on release is 
+the same across different protected attributes, such as race. 
+Several scholars have identified limitations with these approaches to observational fairness. With 
+respect to anti-classification, some argue that there are important cases where protected 
+attributes—such as race or gender— should  be included in data used to train and inform an AI 
+system in order to ensure equitable decisions. 125  For example, Corbett-Davies and Goel discuss 
+the importance of including gender in pretrial risk assessment. As women reoffend less often 
+than men in many jurisdictions, gender-neutral risk assessments tend to overstate the recidivism 
+risk of women, “which can lead to unnecessarily harsh judicial decisions.” As a result, some 
+jurisdictions use gender-specific risk assessment tools. These cases counter a widespread view 
+that deleting sufficient information from data sets will eventually “debias” an AI system. Since 
+correlations between variables in a dataset almost always exist, removing such variables can 
+result in very little information, and thus poor predictive performance without the ability to 
+measure potential harms post hoc.  
+Secondly, some have argued that different mathematical fairness criteria are mutually exclusive. 
+Hence, it is generally not possible, except in highly constrained cases, to simultaneously satisfy 
+both calibration and any form of classification parity. 126  These “impossibility results” show how 
+each fairness strategy makes implicit assumptions about what is and is not fair. They also 
+highlight the inherent mathematical trade-offs facing those aiming to mitigate various forms of 
+bias based on one or another fairness definition. Ultimately, these findings serve to complicate the 
+broader policy debate focused on solving bias issues with mathematical fairness tools. What they 
+make clear is that solving complex policy issues related to bias and discrimination by 
+indiscriminately applying one or more fairness metrics is unlikely to be successful. This does not 
+mean that such metrics are not useful: observational criteria may help understanding around 
+26 
+whether datasets and AI systems meet various notions of fairness and bias and subsequently 
+help inform a richer discussion about the goals one hopes to achieve when deploying AI systems 
+in complex social contexts.  
+The proliferation of observational fairness methods also raises concerns over the potential to 
+provide a false sense of assurance. While researchers often have a nuanced sense of the 
+limitations of their tools, others who might implement them may ignore such limits when looking 
+for quick fixes. The idea that, once “treated” with such methods, AI systems are free of bias and 
+safe to use in sensitive domains can provide a dangerous sense of false security—one that relies 
+heavily on mathematical definitions of fairness without looking at the deeper social and historical 
+context. As legal scholar Frank Pasquale observes, “algorithms alone can’t meaningfully hold 
+other algorithms accountable.” 127 
+While increased attention to the problems of fairness and bias in AI is a positive development, 
+some have expressed concern over a “mathematization of ethics.” 128  As Shira Mitchell has argued: 
+“As statistical thinkers in the political sphere we should be aware of the hazards of 
+supplanting politics by an expert discourse. In general, every statistical intervention to 
+a conversation tends to raise the technical bar of entry, until it is reduced to a 
+conversation between technical experts…are we speaking statistics to power? Or are 
+we merely providing that power with new tools for the marginalization of unquantified 
+political concerns?” 129  
+Such concerns are not new. Upcoming work by Hutchinson and Mitchell surveys over fifty years 
+of attempts to construct quantitative fairness definitions across multiple disciplines. Their work 
+recalls a period between 1964 and 1973 when researchers focused on defining fairness for 
+educational assessments in ways that echo the current AI fairness debate. Their efforts stalled 
+after they were unable to agree on “broad technical solutions to the issues involved in fairness.” 
+These precedents emphasize what the Fairness, Accountability and Transparency in Machine 
+Learning community has been discovering: without a “tight connection to real world impact,” the 
+added value of new fairness metrics and algorithms in the machine learning community could be 
+minimal. 130  In order to arrive at more meaningful research on fairness and algorithmic bias, we 
+must continue to pair the expertise and perspectives of communities outside of technical 
+disciplines to those within. 
+Broader approaches 
+Dobbe et al. have drawn on the definition of bias proposed in the early value-sensitive design 
+(VSD) literature to propose a broader view of fairness. 131  VSD, as theorized in the nineties by Batya 
+Friedman and Helen Nissenbaum, asserts that bias in computer systems pre-exists the system 
+itself. 132  Such bias is reflected in the data that informs the systems and embedded in the 
+assumptions made during the construction of a computer system. This bias manifests during the 
+27 
+operation of the systems due to feedback loops and dissonance between the system and our 
+dynamic social and cultural contexts. 133  The VSD approach is one way to bring a broader lens to 
+these issues, emphasizing the interests and perspectives of direct and indirect stakeholders 
+throughout the design process.  
+Another approach is a “social systems analysis” first described by Kate Crawford and Ryan Calo in 
+Nature . 134  This is a method that combines quantitative and qualitative research methods by 
+forensically analyzing a technical system while also studying the technology once it is deployed in 
+social settings. It proposes that we engage with social impacts at every stage—conception, 
+design, deployment, and regulation of a technology, across the life cycle.  
+We have also seen increased focus on examining the provenance and construction of the data 
+used to train and inform AI systems. This data shapes AI systems’ “view of the world,” and an 
+understanding of how it is created and what it is meant to represent is essential to understanding 
+the limits of the systems that it informs. 135  As an initial remedy to this problem, a group of 
+researchers led by Timnit Gebru proposed “Datasheets for Datasets,” a standardized form of 
+documentation meant to accompany datasets used to train and inform AI systems. 136  A follow-up 
+paper looks at standardizing provenance for AI models. 137  These approaches allow AI 
+practitioners and those overseeing and assessing the applicability of AI within a given context to 
+better understand whether the data that shapes a given model is appropriate, representative, or 
+potentially possessing legal or ethical issues. 
+Advances in bias-busting and fairness formulas are strong signs that the field of AI has accepted 
+that these concerns are real. However, the limits of narrow mathematical models will continue to 
+undermine these approaches until broader perspectives are included. Approaches to fairness and 
+bias must take into account both allocative and representational harms, and those that debate 
+the definitions of fairness and bias must recognize and give voice to the individuals and 
+communities most affected. 138  Any formulation of fairness that excludes impacted populations 
+and the institutional context in which a system is deployed is too limited. 
+2.2  Industry Applications: Toolkits and System Tweaks 
+This year, we have also seen several technology companies operationalize fairness definitions, 
+metrics, and tools. In the last year, four of the biggest AI companies released bias mitigation tools. 
+IBM released the “AI Fairness 360” open-source tool kit, which includes nine different algorithms 
+and many other fairness metrics developed by researchers in the Fairness, Accountability and 
+Transparency in Machine Learning community. The toolkit is intended to be integrated into the 
+software development pipeline from early stages of data pre-processing, to the training process 
+itself, through the use of specific mathematical models that deploy bias mitigation strategies. 139 
+Google’s People + AI Research group (PAIR) released the open-source “What-If” tool, a dashboard 
+allowing researchers to visualize the effects of different bias mitigation strategies and metrics, as 
+well as a tool called “Facets” that supports decision-making around which fairness metric to 
+28 
+use. 140  Microsoft released fairlearn.py, a Python package meant to help implement a binary 
+classifier subject to a developer’s intended fairness constraint. 141  Facebook announced the 
+creation and testing of a tool called “Fairness Flow”, an internal tool for Facebook engineers that 
+incorporates many of the same algorithms to help identify bias in machine learning models. 142 
+Even Accenture, a consulting firm, has developed internal software tools to help clients 
+understand and “essentially eliminate the bias in algorithms.” 143 
+Industry standards bodies have also taken on fairness efforts in response to industry and public 
+sector requests for accountability assurances. The Institute of Electrical and Electronics 
+Engineers (IEEE) recently announced an Ethics Certification Program for Autonomous and 
+Intelligent Systems in the hopes of creating “marks” that can attest to the broader public that an 
+AI system is transparent, accountable, and fair. 144  While this effort is new, and while IEEE has not 
+published the certification’s underlying methods, it is hard to see, given the complexity of these 
+issues, how settling on one certification standard across all contexts and all AI systems would be 
+possible—or ultimately reliable—in ensuring that systems are used in safe and ethical ways. 
+Similar concerns have arisen in other contexts, such as privacy certification programs. 145 
+In both the rapid industrial adoption of academic fairness methods, and the rush to certification, 
+we see an eagerness to “solve” and “eliminate” problems of bias and fairness using familiar 
+approaches and skills that avoid the need for significant structural change, and which fail to 
+interrogate the complex social and historical factors at play. Combining “academically credible” 
+technical fairness fixes and certification check boxes runs the risk of instrumenting fairness in 
+ways that lets industry say it has fixed these problems and may divert attention from examining 
+ongoing harms. It also relieves companies of the responsibility to explore more complex and 
+costly forms of review and remediation. Rather than relying on quick fixes, tools, and 
+certifications, issues of bias and fairness require deeper consideration and more robust 
+accountability frameworks, including strong disclaimers about how “automated fairness” cannot 
+be relied on to truly eliminate bias from AI systems. 
+2.3  Why Ethics is Not Enough 
+A top-level recommendation in the AI Now 2017 Report advised that “ethical  codes  meant  to  steer  
+the  AI  field  should  be  accompanied  by  strong  oversight and  accountability  mechanisms.” 146  While 
+we have seen a rush to adopt such codes, in many instances offered as a means to address the 
+growing controversy surrounding the design and implementation of AI systems, we have not seen 
+strong oversight and accountability to backstop these ethical commitments.  
+After it was revealed that Google was working with the Pentagon on Project Maven—developing AI 
+systems for drone surveillance—the debate about the role of AI in weapons systems grew in 
+intensity. Project Maven generated significant protest among Google’s employees, who 
+successfully petitioned the company’s leadership to end their involvement with the program when 
+the current contract expired. 147  By way of response, Google’s CEO Sundar Pichai released a public 
+29 
+set of seven “guiding principles” designed to ensure that the company’s work on AI will be socially 
+responsible. 148  These ethical principles include the commitment to ”be socially beneficial,” and to 
+“avoid creating or reinforcing unfair bias.” They also include a section titled, “AI applications we will 
+not pursue,” which includes “weapons and other technologies whose principal purpose or 
+implementation is to cause or directly facilitate injury to people”—a direct response to the 
+company’s decision not to renew its contract with the Department of Defense. But it is not clear to 
+the public who would oversee the implementation of the principles, and no ethics board has been 
+named.  
+Google was not alone. Other companies, including Microsoft, Facebook, and police body camera 
+maker Axon, also assembled ethics boards, advisors, and teams. 149  In addition, technical 
+membership organizations moved to update several of their ethical codes. The IEEE reworked its 
+code of ethics to reflect the challenges of AI and autonomous systems, and researchers in the 
+Association for Computing Machinery (ACM) called for a restructuring of peer review processes, 
+requiring the authors of technical papers to consider the potential adverse uses of their work, 
+which is not a common practice. 150  Universities including Harvard, NYU, Stanford, and MIT offered 
+new courses on the ethics and ethical AI development practices aimed at identifying issues and 
+considering the ramifications of technological innovation before it is implemented at scale. 151  The 
+University of Montreal launched a wide-ranging process to formulate a declaration for the 
+responsible development of AI that includes both expert summits and open public deliberations 
+for input from citizens. 152  
+Such developments are encouraging, and it is noteworthy that those at the heart of AI 
+development have declared they are taking ethics seriously. Ethical initiatives help develop a 
+shared language with which to discuss and debate social and political concerns. They provide 
+developers, company employees, and other stakeholders a set of high-level value statements or 
+objectives against which actions can be later judged. They are also educational, often doing the 
+work of raising awareness of particular risks of AI both within a given institution, and externally, 
+amongst the broader concerned public. 153 
+However, developing socially just and equitable AI systems will require more than ethical 
+language, however well-intentioned it may be. We see two classes of problems with this current 
+approach to ethics. The first has to do with enforcement and accountability. Ethical approaches in 
+industry implicitly ask that the public simply take corporations at their word when they say they 
+will guide their conduct in ethical ways. While the public may be able to compare a post hoc 
+decision made by a company to its guiding principles, this does not allow insight into decision 
+making, or the power to reverse or guide such a decision. In her analysis of Google’s AI Principles, 
+Lucy Suchman, a pioneering scholar of human computer interaction, argues that without “the 
+requisite bodies for deliberation, appeal, and redress” vague ethical principles like “don’t be evil” or 
+“do the right thing” are “vacuous.” 154  
+This “trust us” form of corporate self-governance also has the potential to displace or forestall 
+more comprehensive and binding forms of governmental regulation. Ben Wagner of the Vienna 
+30 
+University of Economics and Business argues, “Unable or unwilling to properly provide regulatory 
+solutions, ethics is seen as the “easy” or “soft” option which can help structure and give meaning 
+to existing self-regulatory initiatives.” 155  In other words, ethical codes may deflect criticism by 
+acknowledging that problems exist, without ceding any power to regulate or transform the way 
+technology is developed and applied. The fact that a former Facebook operations manager 
+claims, “We can’t trust Facebook to regulate itself,” should be taken into account when evaluating 
+ethical codes in industry. 156 
+A second problem relates to the deeper assumptions and worldviews of the designers of ethical 
+codes in the technology industry. In response to the proliferation of corporate ethics initiatives, 
+Greene et al. undertook a systematic critical review of high-profile “vision statements for ethical 
+AI.” 157  One of their findings was that these statements tend to adopt a technologically 
+deterministic worldview, one where ethical agency and decision making was delegated to experts, 
+“a narrow circle of who can or should adjudicate ethical concerns around AI/ML” on behalf of the 
+rest of us. These statements often assert that AI promises both great benefits and risks to a 
+universal humanity, without acknowledgement of more specific risks to marginalized populations. 
+Rather than asking fundamental ethical and political questions about whether AI systems should 
+be built, these documents implicitly frame technological progress as inevitable, calling for better 
+building. 158  
+Empirical study of the use of these codes is only beginning, but preliminary results are not 
+promising. One recent study found that “explicitly instructing [engineers] to consider the ACM 
+code of ethics in their decision making had no observed effect when compared with a control 
+group.” 159  However, these researchers did find that media or historical accounts of ethical 
+controversies in engineering, like Volkswagen’s Dieselgate, may prompt more reflective practice. 
+Perhaps the most revealing evidence of the limitations of these emerging ethical codes is how 
+corporations act after they formulate them. Among the list of applications Google promises not to 
+pursue as a part of its AI Principles are “technologies whose purpose contravenes widely 
+accepted principles of international law and human rights.” 160  That was tested earlier this year 
+after investigative journalists revealed that Google was quietly developing a censored version of 
+its search engine (which relies extensively on AI capabilities) for the Chinese market, code-named 
+Dragonfly. 161  Organizations condemned the project as a violation of human rights law, and as 
+such, a violation of Google’s AI principles. Google employees also organized against the effort. 162 
+As of writing, the project has not been cancelled, nor has its continued development been 
+explained in light of the clear commitment in the company’s AI Principles, although Google’s CEO 
+has defended it as “exploratory.” 163 
+There is an obvious need for accountability and oversight in the industry, and so far the move 
+toward ethics is not meeting this need. This is likely in part due to the market-driven incentives 
+working against industry-driven implementations: a drastic (if momentary) drop in Facebook and 
+Twitter’s share price occurred after they announced efforts to combat misinformation and 
+increase spending on security and privacy efforts. 164  
+31 
+This is no excuse not to pursue a more ethically driven agenda, but it does suggest that we should 
+be wary of relying on companies to implement ethical practices voluntarily, since many of the 
+incentives governing these large, publicly traded technology corporations penalize ethical action. 
+For these mechanisms to serve as meaningful forms of accountability requires that external 
+oversight and transparency be put into place to ensure that there exists an external system of 
+checks and balances in addition to the cultivation of ethical norms and values within the 
+engineering profession and technology companies. 
+3.  WHAT IS NEEDED NEXT 
+When we released our AI Now 2016 Report, fairness formulas, debiasing toolkits, and ethical 
+guidelines for AI were rare. The fact that they are commonplace today shows how far the field has 
+come. Yet much more needs to be done. Below, we outline seven strategies for future progress on 
+these issues. 
+3.1  From Fairness to Justice 
+Any debate about bias and fairness should approach issues of power and hierarchy, looking at 
+who is in a position to produce and profit from these systems, whose values are embedded in 
+these systems, who sets their “objective functions,” and which contexts they are intended to work 
+within. 165  Echoing the Association for Computing Machinery (ACM) researcher’s call for an 
+acknowledgement of “negative implications” as a requirement for peer review, much more 
+attention must be paid to the ways that AI can be used as a tool for exploitation and control. 166  We 
+must also be cautious not to reframe political questions as technical concerns. 167  
+When framed as technical “fixes,” debiasing solutions rarely allow for questions about the 
+appropriateness or efficacy of an AI system altogether, or for an interrogation of the institutional 
+context into which the “fixed” AI system will ultimately be applied. For example, a “debiased” 
+predictive algorithm that accurately forecasts where crime will occur, but that is being used by law 
+enforcement to harass and oppress communities of color, is still an essentially unfair system. 168 
+To this end, our definitions of “fairness” must expand to encompass the structural, historical, and 
+political contexts in which an algorithmic systems is deployed.  
+Furthermore, fairness is a term that can be easily co-opted: important questions such as “Fair to 
+whom? And in what context?” should always be asked. For example, making a facial recognition 
+system perform equally on people with light and dark skin may be a type of technical progress in 
+terms of parity, but if that technology is disproportionately used on people of color and 
+low-income communities, is it really “fair?” This is why definitions of fairness face a hard limit if 
+they remain purely contained within the technical domain: in short, “parity is not justice.” 169 
+32 
+3.2  Infrastructural Thinking 
+In order to better understand and track the complexities of AI systems, we need to look beyond 
+the technology and the hype to account for the broader context of how AI is shaping and shaped 
+by social and material forces. As Edwards et al. argue: “When dealing with infrastructures, we 
+need to look to the whole array of organizational forms, practices, and institutions which 
+accompany, make possible, and inflect the development of new technology.” 170  Doing so requires 
+both experimental methodological approaches and theory building, expanding beyond narrow 
+analyses of individual systems in isolation to consider them on a local and global scale. It also 
+requires considering ways in which technologies are entangled in social relations, material 
+dependencies, and political purposes. 171 
+In “Anatomy of an AI System,” a 2018 essay and large-scale map, AI Now cofounder Kate 
+Crawford and Professor Vladan Joler took a single Amazon Echo and analyzed all the forms of 
+environmental and labor resources required to develop, produce, maintain, and finally dispose of 
+this sleek and seemingly simple object. When you ask Alexa to play your favorite song, you have 
+drawn on a massive interlinked chain of extractive processes. It involves lithium mining in Bolivia, 
+clickworkers creating large-scale training datasets in southeast Asia, container ships and 
+international logistics, and vast data extraction and analysis by Alexa Voice Service (AVS) across 
+distributed data centers. The process ends in the final resting place of all AI consumer gadgets: in 
+e-waste rubbish heaps in Ghana, Pakistan, and China.  
+The “Anatomy of an AI System” project points to approaches we can employ in contending with 
+the global implications of AI, and the multi-layered nature of value extraction and exploitation from 
+the developing world to the developed world. This helps to illuminate the darker corners that are 
+rarely considered in analysis of AI systems. 172  
+In particular, an infrastructural analysis of AI shows that there are black boxes within black boxes: 
+not just at the algorithmic level, but also at the levels of trade secrecy laws, labor practices, and 
+untraceable global supply chains for rare earth minerals used to build consumer AI devices. These 
+obscure not only the material impacts of AI systems, but the intensive human work of maintaining 
+and repairing them through practices like content moderation and data training. 173  As Nick Seaver 
+puts it, “If you cannot see a human in the loop, you just need to look for a bigger loop.” 174  
+Only by tracing across these sociotechnical layers can we understand what we are calling the “full 
+stack supply chain” of AI—the human and nonhuman components that make up the global scale 
+of AI systems. There are many sociotechnical data infrastructures needed to make AI function: 
+these include training data, test data, APIs, data centers, fiber networks, undersea cables, energy 
+use, labor involved in content moderation and training set creation, and a constant reliance on  
+33 
+clickwork to develop and maintain AI systems. We cannot see the global environmental and labor 
+implications of these tools of everyday convenience, nor can we meaningfully advocate for 
+fairness, accountability, and transparency in AI systems, without an understanding of this full 
+stack supply chain. 
+3.3  Accounting for Hidden Labor in AI Systems 
+Another emerging research area where we expect to see greater impact focuses on the underpaid 
+and unrecognized workers who help build, maintain, and test AI systems. This hidden human 
+labor takes many forms—from supply chain work, to digital crowdsourced “clickwork,” to 
+traditional service industry jobs. Hidden labor exists at all stages of the AI pipeline, from 
+producing and transporting the raw minerals required to create the core infrastructure of AI 
+systems, to providing the invisible human work that often backstops claims of AI “magic” once 
+these systems are deployed in products and services. 175  Communications scholar Lilly Irani refers 
+to such hidden labor as “human-fueled automation.” 176  Her research draws attention to the 
+experiences of clickworkers or “microworkers” who perform the repetitive digital tasks that 
+underlie AI systems, like labeling training data and reviewing flagged content, as “workers hidden 
+in the technology.” 177 
+While this labor is essential to making AI systems “work,” it is usually very poorly compensated. A 
+2018 study from the United Nations’ International Labor Organization (ILO) surveyed 3,500 
+microworkers from 75 countries who routinely offered their labor on popular microtask platforms 
+like Mechanical Turk, Crowdflower, Microworker, and Clickworker. The report found that a 
+substantial number of people earned below their local minimum wage (despite 57% of 
+respondents having advanced degrees specializing in science and technology). 178  Similarly, those 
+who do content moderation work, screening problematic content posted on social media 
+platforms and news feeds, are also paid poorly, in spite of their essential and emotionally difficult 
+labor. 179 
+This has not been lost on some in the technical AI research community, who have begun to call 
+attention to the crucial and marginalized role of this labor, and to consider their own responsibility 
+to intervene. Silberman and others discuss how researchers conducting AI studies are 
+increasingly dependent upon cheap crowdsourced labor. 180  They note that, between the years 
+2008 and 2016, the term “crowdsourcing” went from appearing in less than 1,000 scientific 
+articles to over 20,000. With online microworkers unregulated by current labor laws, researchers 
+are being asked to reconsider what counts as “ethical conduct” in the AI research community. 
+Silberman et al. argue for treating crowdworkers as coworkers, paying them minimum wage 
+determined by the client’s location, and the need for additional Institutional Review Board (IRB) 
+oversight. 
+34 
+The practice of examining hidden human labor draws on a lineage of feminist research. The 
+concept of “invisible work,” for instance, originated with studies of unpaid women’s care work and 
+investigations into organizational settings that relied upon “emotional labor,” particularly 
+traditionally “feminized” fields like nursing and flight attendants. 181  Researchers found that 
+common activities taken on by female workers, such as soothing anxious patients or managing 
+unruly customers, were not formally recognized or compensated as work, in spite of their being 
+essential. The feminist legacy of invisible work is useful for contextualizing these new forms of 
+labor, and in understanding the characterization of this work, which, while essential, is often 
+written out of the AI narrative, rarely counted or compensated. 
+In her article, “The Automation Charade,” Astra Taylor proposes the term “fauxtomation” to call 
+attention to the gap between the marketing rhetoric of AI as a seamless product or service and 
+the messy, lived reality of automation, which frequently relies on such unsung human labor. 
+“Automation,” Taylor cautions, “has an ideological function as well as a technological 
+dimension.” 182  In making this case, she critiques popular narratives around the future of labor, 
+which posit a near-horizon where workers will be replaced by machines. She sees such claims as 
+functioning to disempower workers: what leverage do workers have to demand better wages and 
+benefits in the face of impending automation? We saw this narrative deployed in 2016 by former 
+McDonald’s CEO Ed Rensi, who cited the growing “Fight for $15” movement as the impetus for the 
+company’s introduction of automated kiosks to replace cashiers. 183  Workers who fought for better 
+pay would ultimately be worse off, he reasoned, as their demand for living wages would force the 
+company to automate and eliminate them. Examining his claim two years on, we see that this is 
+not entirely true. Automation or no, workers are still needed: after McDonald’s added kiosks to its 
+Chicago flagship store, the location reopened with more employees than before the kiosks were 
+introduced. 184 
+The integration of automation and AI in the workplace is aimed not only at automating worker 
+tasks, but at managing, monitoring, and assessing workers themselves. Alex Rosenblatt’s 2018 
+ethnography of Uber drivers details the precarity and uncertainty produced by depending on the 
+whims of a centralized, AI-enabled platform for one’s livelihood. The algorithmic logic that governs 
+ride-sharing applications can arbitrarily bar drivers from work, result in unreliable wages and 
+unexpected costs, and nudge people into working longer hours, resulting in unsafe driving 
+conditions. 185  Such platforms isolate workers from each other, making concerted activity and 
+labor organizing difficult. They also function to create significant information asymmetries 
+between data-rich companies aiming to extract value from workers, and the workers themselves. 
+Even so, 2018 has seen increasing dissent from such workers. Some prominent examples of 
+worker-driven protest include on-demand delivery riders striking alongside UK fast food industry 
+employees and rideshare drivers calling for job protections. 186  
+Silicon Valley contractors working in security, food, and janitorial services within major technology 
+companies have also organized, seeking a living wage and other protections. 187  They are among 
+thousands of workers who labor alongside their full-time technology worker peers, but are 
+classified as independent contractors. Under this designation, they are often paid low wages, and 
+35 
+provided few benefits and protections. They are also rarely counted in official employee numbers, 
+even though they make up a large portion of most technology industry workforces, and perform 
+essential work. For example, as of this year, contract workers outnumber Google’s direct 
+employees for the first time in the company’s history. 188  This increasing wave of dissent makes 
+visible the social tensions at the heart of the practice of hiding and marginalizing important forms 
+of labor.  
+The physical, emotional, and financial costs of treating workers like “bits of code” and devaluing 
+their work and well-being has been highlighted in recent news articles describing the conditions of 
+Amazon warehouse workers and contracted Prime delivery drivers. 189  Amazon warehouse 
+workers recently went on strike in Europe, protesting harsh conditions. According to one striking 
+worker, “You start at the company healthy and leave it as a broken human,” with many workers 
+requiring surgeries related to workplace conditions. 190  
+Recognizing all of the labor required to “make AI work” can help us better understand the 
+implications of its development and use. Research in these areas also helps us reexamine the 
+focus on technical talent in narratives describing AI’s creation and recognize that technical skills 
+account for only a portion of a much larger effort. This enables us to question numerous labor 
+policies, such as the focus on pushing workers to acquire coding or data science skills as a way 
+to ensure they are counted and compensated. They also help us identify who is likely to benefit, 
+and who, along the AI production and deployment pipeline, is likely to be harmed. 
+3.4  Deeper Interdisciplinarity 
+AI researchers and developers are engaged in building technologies that have significant 
+implications for diverse populations in broad fields like law, sociology, and medicine. Yet much of 
+this development happens far removed from the experience and expertise of these groups. This 
+has led to a call to expand the disciplinary makeup of those engaged in AI design, development, 
+and critique, beyond purely technical expertise. 191  Since then, we have seen some movement in 
+this direction. Recently, MIT announced plans to establish a new college of computing that aims 
+to “advance pioneering work on AI’s ethical use and societal impact” by fostering integrated 
+cross-disciplinary training, “educating the bilinguals of the future,” as MIT President L. Rafael Reif 
+described it. 192  
+Such initiatives are critical: as AI becomes more deeply embedded in areas like healthcare, 
+criminal justice, hiring, housing, and educational systems, experts from these domains are 
+essential if we are to ensure AI works as envisioned. In integrating these disciplinary perspectives, 
+it is important that they are not merely ”languages” to be acquired by computer scientists and 
+engineers seeking to expand their work into new areas—especially when other disciplines have 
+been leading that work. Instead, social science and the humanities should be centered as 
+contributors to the AI field’s foundational knowledge and future direction, enabling us to leverage 
+new modes of analysis and methodological intervention. 193  
+36 
+3.5  Race, Gender and Power in AI 
+This year, a groundswell of political action emerged around issues of discrimination, harassment, 
+and inequity in the technology industry, especially in the AI field. 194  This rising concern weaves 
+together a number of related issues, from the biases in AI systems, to failed diversity and 
+inclusion efforts within industry and academia, to the grassroots efforts to confront sexual 
+harassment and the abuse of power in workplaces and classrooms.  
+Resonating with the broader #MeToo movement, we saw issues relating to diversity and inclusion 
+in artificial intelligence rise on the public agenda:  
+● Following the 2017 Conference on Neural Information Processing Systems, members of 
+the artificial intelligence and machine learning communities began voicing concerns about 
+long standing problems of harassment and discrimination in conference settings, leading 
+to #ProtestNIPS, a movement aimed at highlighting examples of toxicity in the community 
+and the need to address them. 195  Among other things, this provoked a change to the 
+conference acronym, a longstanding subject of sensitivity for its gendered and historical 
+connotations. The conference, which was previously referred to as NIPS, now goes by 
+NeurIPS. 196 
+● We also saw renewed focus on initiatives devoted to creating platforms for inclusion in 
+the field, such as Black in AI, Women in Machine Learning, Latinx in AI, and Queer in AI, 
+alongside the appointment of Diversity and Inclusion chairs and a series of other changes 
+to the design of NeurIPS intended to foster equity and inclusion among participants. 197 
+● Across the industry, we saw a growing technology worker movement that intersected with 
+these issues. The Google Walkout, in particular, took on a worker-driven agenda that 
+acknowledged that race, class, and sexuality are intertwined with forms of gender-based 
+discrimination. The walkout explicitly aimed to center the needs of the company’s 
+temporary contract workers and vendors who lack the job security and benefits of more 
+privileged technology workers. 198  These efforts have led to some significant structural 
+changes—notably, the end to forced arbitration for sexual harassment claims across a 
+number of the largest companies in the AI industry. 199  
+● In other arenas, corporate boards have ignored or otherwise refused to address 
+shareholder proposals targeting discriminatory workspaces. This year, Google dismissed 
+a proposal that would tie executive compensation to progress made on diversity and 
+inclusion, while in 2016, Apple refused a mandate that would require it to diversify its 
+board and senior management. 200 
+37 
+Across these efforts, advocates of diversity in AI are finding intersections between the move to 
+address gender and race-based harassment and abuse within the technology community, and 
+other forms of inequity and abuses of power. But this is still an uphill battle: while there is 
+increased attention to problems of bias in AI systems, we have yet to see much research within 
+the fairness and bias debate focused on the state of equity and diversity in the AI field itself. 
+Indeed, reliable figures on representation in AI are difficult to come by, although some limited data 
+does exist.  
+A recent estimate produced by  WIRED  and Element AI found that only 12% of researchers who 
+contributed to the three leading machine learning conferences in 2017 were women. This gender 
+gap is replicated at large technology firms like Facebook and Google, whose websites show that 
+only 15% and 10% of their AI research staff are women. 201  And there is no reliable data on the 
+state of racial diversity in the field, or retention rates for people of color. 202  Collectively, the limited 
+evidence suggests that AI, as a field, is even less diverse than computer science as a whole, 
+which is itself at a historic low point: women make up only 18% of computer science majors in the 
+United States, a decline from a high point of 37% in 1984. 203  
+These trends are even more dramatic when compared to other STEM fields in which gender 
+diversity has shown a marked improvement. 204  Yet these are not new problems: the 
+WIRED /Element AI survey is not significantly different from a study of the AI field that was 
+published by  IEEE Expert  in 1992, which found that only 13% of published authors in the journal 
+over the prior four years were women. 205  And in the 1980s, female grad students at MIT’s 
+Computer Science and Artificial Intelligence Labs thoroughly documented their experiences with 
+toxic working environments in the report “Barriers to Equality in Academia: Women in Computer 
+Science at MIT.” 206 
+It is time to address the connection between discrimination and harassment in the AI community, 
+and bias in the technical products that are produced by the community. Scholars in science and 
+technology studies have long observed that the values and beliefs of those who create 
+technologies shape the technologies they create. 207  Expanding the field’s frame of reference to 
+recognize this connection will ensure it is better equipped to address the problems raised by its 
+rapid proliferation into sensitive social domains. As one AI researcher put it, “Bias is not just in our 
+datasets, it’s in our conferences and community.” 208  
+A recent example illustrates these connections, and how discriminatory practices within the 
+culture that produces an AI system can be mirrored and amplified in the system itself. Amazon 
+recently developed an experimental AI system to help it rank job candidates. It trained the system 
+on data reflecting the company’s historical hiring preferences, hoping to more efficiently identify 
+qualified candidates. 209  But the system didn’t work as expected: based on the company’s 
+historical hiring, it showed a distinct bias against women candidates, downgrading resumes from 
+candidates who attended two all-women’s colleges, and even penalizing resumes that contained 
+the word “woman.” After uncovering this bias, the company attempted to fix the system, adjusting 
+the algorithm to treat these terms more fairly. This did not work, and the project was eventually 
+38 
+scrapped. Gender-based discrimination was embedded too deeply within the system – a system 
+built to reflect Amazon’s past hiring practices – to be uprooted using the “debiasing” approach 
+commonly adopted within the AI field. 
+As scholars like Safiya Noble and Mar Hicks have observed, there is a clear through-line 
+connecting longstanding patterns of discrimination and harassment in AI to the ways artificial 
+intelligence technologies can amplify and contribute to marginalization and social inequity. 210 
+Patterns of cultural discrimination are often embedded in AI systems in complex and meaningful 
+ways, and we need to better understand how these effects are felt by different communities. 211  
+This is a space that has too long been overlooked and where research is sorely needed. AI Now 
+will be publishing a dedicated report on these issues, and we have a multi-year research project 
+dedicated to examining these challenges. 
+3.6  Strategic Litigation and Policy Interventions 
+This year saw an increase in court challenges to the use of automated systems, particularly when 
+government agencies use them in decisions that affect individual rights. In a recent AI Now 
+Report called “Litigating Algorithms,” we documented five recent case studies of litigation 
+involving the use of automated systems: in Medicaid and disability benefits cases, public teacher 
+employment evaluations, juvenile criminal risk assessment, and criminal DNA analysis. 212 
+The findings brought to light several emerging trends. First, these cases provided concrete 
+evidence that governments are routinely adopting automated decision systems (ADS) as 
+measures to produce “cost savings” or to streamline work. Yet, they are failing to assess how 
+these systems might disproportionately harm the populations they are meant to serve, 
+particularly those who are the most vulnerable and who have little recourse or even knowledge 
+that these systems are deeply affecting their lives. In many cases, there was not a single 
+government employee who could explain the automated decision, correct errors, or audit the 
+results of its determination. Through a series of vendor and contractor agreements, almost all 
+avenues for understanding or contesting the impact of these systems were shielded by legal 
+protections such as trade secret law. 
+Second, few government agencies had invested real efforts to ensure that fairness and due 
+process protections remained in place when switching from human-driven decisions to 
+algorithmically-driven ones. The typical audit, appeals, and accountability mechanisms were 
+totally absent from automated system design. Fortunately, successful strategic litigation by 
+lawyers from the American Civil Liberties Union (ACLU) of Idaho, Legal Aid of Arkansas, the 
+Houston Federation of Teachers, The Legal Aid Society of New York, and various public defenders 
+were able to secure victories for their clients and challenge these unlawful uses based, in part, on 
+constitutional and administrative due process litigation claims. 
+39 
+The playbook for how to litigate algorithms is still being written, but our report uncovered several 
+useful strategies to support long-term solutions and protections. First, arguments based on 
+procedural due process presented serious challenges to the trade secrecy claims of private 
+vendors, with the vast majority of judges ruling that the right to assert constitutional or civil rights 
+protections outweighs any risk of intellectual property misappropriation. Second, a failure to notify 
+affected individuals and communities matters: agencies who neglected to engage community 
+groups concerning the use of these systems were often judged to have failed to appropriately 
+provide the opportunity for public notice and comment, meaning that their implementation of AI 
+systems was potentially unconstitutional. Third, interdisciplinary collaboration is important when 
+trying to determine where these systems fail, especially when submitting evidence to judges. In 
+cases in which lawyers worked closely with technical and social science experts, judges were able 
+to learn about the scientific flaws in these systems as well as the social ramifications and harms. 
+Looking forward, we anticipate future strategic litigation cases will produce many more lessons. 
+These interventions generate greater understanding and remedial accountability for these 
+systems, even in situations where government agencies have attempted to disclaim ownership, 
+understanding, or control. Combined with tools such as AI Now’s Algorithmic Impact Assessment 
+framework, alongside robust regulatory oversight regimes, we can begin to identify, measure, and, 
+when necessary, intervene in efforts to use AI and automated systems in ways that produce 
+harm. 213  However, in order to continue to build on recent progress, lawyers and community 
+activists who represent individuals in such suits need greater funding and support, as well as 
+networks of domain experts that they can draw on to help advise strategy and audit systems. 
+3.7  Research and Organizing: An Emergent Coalition 
+The rapid deployment of AI and related systems in everyday life is not a concern for the future—it 
+is already here, with no signs of slowing down. Recognizing this, a set of strategies have emerged, 
+drawing on long-standing traditions of activism and organizing to demand structural changes for 
+greater accountability.  
+Social activism by technologists is nothing new. In the early 1980s, Computer Professionals for 
+Social Responsibility formed to oppose the use of computers in warfare. 214  More recently, the 
+2016 “Never Again” technology pledge rallied thousands of workers in various technology sectors 
+to sign a promise not to build databases or conduct data collection that could be used to target 
+religious minorities or facilitate mass deportations. 215  While 2018’s organizing and activism draws 
+from a long tradition, its scale is new to the technology sector. Technology workers are joining 
+forces with civil society organizations and researchers in opposition to their employers’ technical 
+and business decisions.  
+Google employees kicked off publicly visible organizing in 2018, opposing Project Maven, a 
+Pentagon effort to apply Google’s machine vision AI capabilities to Department of Defense drone 
+surveillance. 216  Researchers and human rights organizations joined the cause, and in June, 
+40 
+Google announced it would abandon the project. 217  At Amazon, Salesforce, and Microsoft, 
+employees petitioned their leadership to end contracts with Immigrations and Customs 
+Enforcement (ICE), supported by immigration and advocacy organizations. 218  Amazon employees 
+also joined the ACLU in petitioning the company to stop selling facial recognition to law 
+enforcement, responding to the ACLU’s work exposing existing contracts. 219  Following Maven, 
+Google employees again rose up against Project Dragonfly, a version of the Google search engine 
+enabling government-directed censorship and surveillance, planned for the Chinese market. 220  In 
+response to media reports that disclosed the secretive effort, employees requested ethical 
+oversight and accountability, and over 700 of them joined Amnesty International in a call to cancel 
+the project, signing their name publicly to an open letter which coincided with Amnesty 
+International protests 221 
+The biggest moment occurred in early November, when 20,000 Google workers walked out 
+around the globe in an action called Walkout for Real Change. 222  The walkout characterized 
+Google as a company at which “abuse of power, systemic racism, and unaccountable 
+decision-making are the norm.” 223  Organizers called on leadership to meet five demands, including 
+ending pay and opportunity inequity, eliminating forced arbitration in cases of sexual harassment 
+and discrimination, and adding an employee representative to the board of directors. A week after 
+the walkout, Google met a small portion of these demands, agreeing to end forced arbitration in 
+cases of sexual harassment (but notably ignoring discrimination). 224  This move was quickly 
+replicated throughout the industry, with Facebook, Square, eBay, and Airbnb following suit. 225  
+By joining forces with researchers and civil society groups, this new wave of labor organizing 
+mirrors calls for greater diversity and openness within the AI research domain. 226  These 
+movements are incorporating diverse perspectives across class, sector, and discipline, working to 
+ensure they are capable of understanding the true costs of company practices, including the 
+impact of the systems they build. The Google workers who participated in the walkout expanded 
+their coalition across class and sector, emphasizing contract workers in their demands, and 
+situating themselves within a growing movement “not just in tech, but across the country, 
+including teachers, fast-food workers and others who are using their strength in numbers to make 
+real change.” 227 
+The recent surge in activism has largely been driven by whistleblowers within technology 
+companies, who have disclosed information about secretive projects to journalists. 228  These 
+disclosures have helped educate the public, which is traditionally excluded from such access, and 
+helped external researchers and advocates provide more informed analysis. By establishing 
+shared ground truth, whistleblowing has helped build the broad coalitions that characterize these 
+movements. The critical role of ethical whistleblowing over the last year has also highlighted both 
+its social importance, and the lack of protections for those who make such disclosures.  
+The broad coalition of technology worker organizers, researchers, and civil society is playing an 
+increasing role in the push for accountability in the technology sector. Many engineering 
+employees have considerable bargaining power and are uniquely positioned to demand change 
+41 
+from their employers. 229  Applying this power to push for greater accountability presents a hopeful 
+model for labor organizing in the public interest, especially given the current lack of government 
+regulation, external oversight, and other meaningful levers capable of reviewing and steering 
+technology company decision making. 
+CONCLUSION  
+This year saw AI systems rapidly introduced into more social domains, leaving increasing 
+numbers of people at risk. While AI techniques still offer considerable promise, rapid deployment 
+of systems without appropriate assessment, accountability, and oversight can create serious 
+hazards. We urgently need to regulate AI systems sector-by-sector, with particular attention paid 
+to facial and affect recognition, and to inform those policies with rigorous research.  
+But regulation can only be effective if the legal and technological barriers that prevent auditing, 
+understanding, and intervening in these systems are removed. Back in 2016, we recommended in 
+the first AI Now report that the Computer Fraud and Abuse Act (CFAA) and the Digital Millennium 
+Copyright Act (DMCA) should not be used to restrict research into AI accountability and 
+auditing. 230  This year, we go further: AI companies should waive trade secrecy and other legal 
+claims that would prevent algorithmic accountability in the public sector. Governments and public 
+institutions must be able to understand and explain how and why decisions are made, particularly 
+when people’s access to healthcare, housing, and employment is on the line. 
+The question is no longer whether there are harms and biases in AI systems. That debate has 
+been settled: the evidence has mounted beyond doubt in the last year. The next task now is 
+addressing these harms. This is particularly urgent given the scale at which these systems are 
+deployed, the way they function to centralize power and insight in the hands of the few, and the 
+increasingly uneven distribution of costs and benefits that accompanies this centralization. We 
+need deeper analyses of the “full stack supply chain” behind AI systems, to track their 
+development and deployment across the product life cycle, and to take into account their true 
+environmental and labor costs. 231  
+Furthermore, it is long overdue for technology companies to directly address the cultures of 
+exclusion and discrimination in the workplace. The lack of diversity and ongoing tactics of 
+harassment, exclusion, and unequal pay are not only deeply harmful to employees in these 
+companies but also impacts the AI products they release, producing tools that perpetuate bias 
+and discrimination. 232 
+The current structure within which AI development and deployment occurs works against 
+meaningfully addressing these pressing issues. Those in a position to profit are incentivized to 
+accelerate the development and application of systems without taking the time to build diverse 
+teams, create safety guardrails, or test for disparate impacts. Those most exposed to harm from 
+42 
+these systems commonly lack the financial means and access to accountability mechanisms 
+that would allow for redress or legal appeals. 233  This is why we are arguing for greater funding for 
+public litigation, labor organizing, and community participation as more AI and algorithmic 
+systems shift the balance of power across many institutions and workplaces.  
+It is imperative that the balance of power shifts back in the public’s favor. This will require 
+significant structural change that goes well beyond a focus on technical systems, including a 
+willingness to alter the standard operational assumptions that govern the modern AI industry 
+players. The current focus on discrete technical fixes to systems should expand to draw on 
+socially-engaged disciplines, histories, and strategies capable of providing a deeper 
+understanding of the various social contexts that shape the development and use of AI systems.  
+As more universities turn their focus to the study of AI’s social implications, computer science and 
+engineering can no longer be the unquestioned center, but should collaborate more equally with 
+social and humanistic disciplines, as well as with civil society organizations and affected 
+communities.  
+Fortunately, we are beginning to see new coalitions form between researchers, activists, lawyers, 
+concerned technology workers, and civil society organizations to support the oversight, 
+accountability, and ongoing monitoring of AI systems. For these important connections to grow, 
+more protections are needed, including a commitment from technology companies to provide 
+protections for conscientious objectors who do not want to work on military or policing contracts, 
+along with protections for employees involved in labor organizing and ethical whistleblowers. 234  
+The last year revealed many of the hardest challenges for accountability and justice as AI 
+systems moved deeper into the social world. Yet there have been extraordinary moments of 
+potential, as well as significant public debates and hopeful forms of protest, that may ultimately 
+illuminate the pathways for consequential and positive change.

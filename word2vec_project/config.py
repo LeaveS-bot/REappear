@@ -14,7 +14,7 @@ class Config:
     
     # 训练参数
     BATCH_SIZE = 256  # 减小以节省内存
-    NUM_EPOCHS = 5    # 减少训练轮数
+    NUM_EPOCHS = 50    # 减少训练轮数
     LEARNING_RATE = 0.01
     
     # 评估参数
